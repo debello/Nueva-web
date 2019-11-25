@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'Determination Mono';
-    src: url(/DeterminationMonoWeb.ttf);
+    src: url(/ttf/DeterminationMonoWeb.ttf);
 }
 @font-face {
     font-family: 'Monster Friend Fore';
-    src: url(/MonsterFriendFore.ttf);
+    src: url(/ttf/MonsterFriendFore.ttf);
 }
 @font-face {
-    font-family: 'Endless Boss Battle';
-    src: url(/EndlessBossBattle.ttf);
+    font-family: 'Endless-Boss-Battle';
+    src: url(/ttf/EndlessBossBattle.ttf);
 }
 @font-face {
     font-family: 'Super_Plumber_Brothers';
-    src: url(/SuperPlumberBrothers.ttf);
+    src: url(/ttf/SuperPlumberBrothers.ttf);
 }
 
 body {
@@ -94,7 +94,7 @@ body {
 /* Titulo y Subtitulo */
 h1 {
     font-size: 120px;
-    font-family: 'Endless Boss Battle';
+    font-family: 'Endless-Boss-Battle';
     word-spacing: 40px;
 }
 h1, h2 {
@@ -304,4 +304,9 @@ padding-top: 100px;
 
 .RRSS {
     width: 72px;
+}
+
+#this-is-title {
+    
+
 }
