@@ -1,12 +1,10 @@
 import React from 'react';
-//import logo from './logo.svg';
-import { Titulo, Descripcion, Destrezas, Proyectos, Pie } from "./Portfolio";
-import './App.css';
-//import {Hola} from "./test"
+import { Titulo, Descripcion, Destrezas, Proyectos, Pie } from "./parts/Portfolio";
+import './css/old.css'
 
 function App() {
   return (
-    <div>
+    <div id="all-this-web" async >
       <p>Henlo, this is React.</p>
       <Titulo />
       <Descripcion />

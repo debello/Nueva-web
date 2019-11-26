@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Determination Mono';
+    src: url(/ttf/DeterminationMonoWeb.ttf);
+}
+@font-face {
+    font-family: 'Monster Friend Fore';
+    src: url(/ttf/MonsterFriendFore.ttf);
+}
+@font-face {
+    font-family: 'Endless-Boss-Battle';
+    src: url(/ttf/EndlessBossBattle.ttf);
+}
+@font-face {
+    font-family: 'Super_Plumber_Brothers';
+    src: url(/ttf/SuperPlumberBrothers.ttf);
+}
+
+body {
+    font-family: 'Determination Mono', monospace;
+    background-color: black;
+    color: white;    
+}
+img {
+    width: 40px;
+}
