@@ -45,7 +45,7 @@ const Titulo = () => {
                 <div>
                     <h2 className='hover-1'>Desarrollador Frontend</h2>
                     <h2 className='hover-2'>* JavaScript</h2>
-                    <h2 className='hover-2'>{"{Trabajando en React}"}</h2>
+                    <h2 className='hover-2'>{"{Trabajando con React.js}"}</h2>
                 </div>
                 <Navbar />
             </div>
