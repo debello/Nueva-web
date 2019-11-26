@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Nueva-web/static/css/main.8a4468c4.chunk.css",
-    "main.js": "/Nueva-web/static/js/main.17996658.chunk.js",
-    "main.js.map": "/Nueva-web/static/js/main.17996658.chunk.js.map",
+    "main.css": "/Nueva-web/static/css/main.19d7d259.chunk.css",
+    "main.js": "/Nueva-web/static/js/main.b3ce0297.chunk.js",
+    "main.js.map": "/Nueva-web/static/js/main.b3ce0297.chunk.js.map",
     "runtime-main.js": "/Nueva-web/static/js/runtime-main.16f8a5bb.js",
     "runtime-main.js.map": "/Nueva-web/static/js/runtime-main.16f8a5bb.js.map",
-    "static/js/2.874378e6.chunk.js": "/Nueva-web/static/js/2.874378e6.chunk.js",
-    "static/js/2.874378e6.chunk.js.map": "/Nueva-web/static/js/2.874378e6.chunk.js.map",
+    "static/js/2.f32c5a41.chunk.js": "/Nueva-web/static/js/2.f32c5a41.chunk.js",
+    "static/js/2.f32c5a41.chunk.js.map": "/Nueva-web/static/js/2.f32c5a41.chunk.js.map",
     "index.html": "/Nueva-web/index.html",
-    "precache-manifest.70431a5cd4505d0b0bddecd6cdb7f658.js": "/Nueva-web/precache-manifest.70431a5cd4505d0b0bddecd6cdb7f658.js",
+    "precache-manifest.9e33bfdfe77677104f0ed17647316738.js": "/Nueva-web/precache-manifest.9e33bfdfe77677104f0ed17647316738.js",
     "service-worker.js": "/Nueva-web/service-worker.js",
-    "static/css/main.8a4468c4.chunk.css.map": "/Nueva-web/static/css/main.8a4468c4.chunk.css.map"
+    "static/css/main.19d7d259.chunk.css.map": "/Nueva-web/static/css/main.19d7d259.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.16f8a5bb.js",
-    "static/js/2.874378e6.chunk.js",
-    "static/css/main.8a4468c4.chunk.css",
-    "static/js/main.17996658.chunk.js"
+    "static/js/2.f32c5a41.chunk.js",
+    "static/css/main.19d7d259.chunk.css",
+    "static/js/main.b3ce0297.chunk.js"
   ]
 }
