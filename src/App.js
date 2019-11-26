@@ -1,19 +1,30 @@
 import React from 'react';
-import { Navbar, Titulo, Descripcion, Destrezas, Proyectos, Pie } from "./parts/Portfolio";
+import styled from 'styled-components'
+import { Titulo, Descripcion, Destrezas, Proyectos, Pie } from "./parts/Portfolio";
 import './css/old.css'
 
-function App() {
+const App = () => {
   return (
-    <div id="all-this-web" async >
-      <p>Henlo, this is React.</p>
-      <Navbar />
+    <Container className="container">
+      
       <Titulo />
       <Descripcion />
       <Destrezas />
       <Proyectos />
       <Pie />
-    </div>
+    </ Container>
   );
 }
+
+const Container = styled.div`   
+  font-size: 1.4rem;
+  img {
+    width: 40px;
+  }
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 400px;
+  
+`
 
 export default App;

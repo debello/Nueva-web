@@ -1,47 +1,88 @@
 import React from 'react';
+import styled from 'styled-components'
 import "./../css/old.css"
 
 // eslint-disable-next-line
-const myScript = () => {
+function myScript() {
     const script = document.createElement("script")
     script.async = true
     script.src = "/scripts/myscript.js"
-    return document.body.appendChild(script)
+    document.body.appendChild(script)
 }
+myScript()
 // eslint-disable-next-line
-(function createGoogleScript() {
+function createGoogleScript() {
     const googleScript = document.createElement("script")
     googleScript.async = true
     googleScript.src = "/scripts/googleScript.js"
     document.head.appendChild(googleScript)
-})()
+}
+createGoogleScript()
 
 const Navbar = () => {
     return ( 
-        <nav class='navbar'>
+        <NavbarCSS className='navbar'>
             <a href='#quien-soy'>Quién soy</a>
             <a href='#destrezas'>Destrezas</a>
             <a href='#projects-redirect'>Proyectos</a>
             <a href='#profile-link'>Contacto</a>
-         </nav>
+         </NavbarCSS>
     )
 }
-
+const NavbarCSS = styled.div`
+    display: block;
+    > * {
+        display: flex;
+        flex-direction: column;
+    }
+`
 const Titulo = () => {
-    return(
-    <div class='welcome-section'>
-        <h1 class="this-is-title" >SANTI BELLO</h1>
-        <h2 className='hover-1'>Desarrollador Web.</h2>
-        <h2 className='hover-2'>* JavaScript</h2>
-        <h2 className='hover-2'>* PHP</h2>
-        <h2 className='hover-2'>{"{Trabajando en React}"}</h2>
-    </div>
+    return (
+        <TituloCSS className="titulo">
+            <p>Hello this is React</p>
+            <h1 className="this-is-title" >SANTI BELLO</h1>
+            <div className="subtitulo">
+                <div>
+                    <h2 className='hover-1'>Desarrollador Frontend</h2>
+                    <h2 className='hover-2'>* JavaScript</h2>
+                    <h2 className='hover-2'>{"{Trabajando en React}"}</h2>
+                </div>
+                <Navbar />
+            </div>
+            
+        </TituloCSS>
     )
 }
+const TituloCSS = styled.div`
+    place-self: center;
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr 1fr;
+    p { 
+        place-self: start end;
+        margin: 10px;
+        float: right;
+    }
+    .this-is-title {
+        font-size: 8rem;
+        
+    }
+    .subtitulo {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+
+    }
+    .navbar {
+        float: right;
+        place-self:  start end;
+        
+    }
+`
+
 
 const Descripcion = () => {
     return(
-        <div class='quien-soy'>
+        <div className='quien-soy'>
             <p>Soy un estudiante <span className='hover-2'>autodidacta</span> en Galicia. Programo a diario.</p>
             <p>Hace más de un año empecé a trastear con Java después de verle las 'tripas' a un videojuego, lo que me llevaría a descubrir la programación Web.
             Me llamó la atención el <span className='hover-2'>valor</span> que podemos aportar mediante un código y un objetivo conjunto.</p>
@@ -55,7 +96,7 @@ const Descripcion = () => {
 
 const Destrezas = () => {
     return (
-        <div className="skills" class='destrezas'>
+        <div className="skills">
             <div className="skills-names">
                 <p>JavaScript (React)</p>
                 <p>PHP (CodeIgniter)</p>
@@ -96,23 +137,23 @@ const Destrezas = () => {
 
 const Proyectos = () => {
     return (
-        <>
-            <h2 class='projects-redirect'>Proyectos.</h2>
-            <section class='projects' className='projects-grid'>
+        <div>
+            <h2 className='projects-redirect'>Proyectos.</h2>
+            <section className='projects'>
                 <a className='p-1' href='https://debello.github.io/todolist/' rel="noopener noreferrer">To do List </a>
                 <a className='p-2' href='https://debello.github.io/kanban_bello/' rel="noopener noreferrer">Kanban </a>
                 <a className='p-3' href='https://github.com/debello/API-Clima' rel="noopener noreferrer">API Clima</a>
                 <a className='p-4 hover-3' href='https://github.com/debello?tab=repositories' rel="noopener noreferrer">Más proyectos</a>
             </section>
-        </>
+        </div>
     )
 }
 
 const Pie = () => {
     return (
-        <div class='pie-pagina'>
-            <h2 class='profile-link'>Connect</h2>
-            <div class='social-buttons'>
+        <div className='pie-pagina'>
+            <h2 className='profile-link'>Connect</h2>
+            <div className='social-buttons'>
                 <a href="https://twitter.com/debellodev" rel="noopener noreferrer"><img src="img/twitter-logo.png"alt="twitter handle" /></a>
                 <a href="https://github.com/debello/" rel="noopener noreferrer"><img src="img/github-logo.png" alt="twitter handle" /></a>
             </div>
