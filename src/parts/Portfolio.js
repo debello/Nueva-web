@@ -1,19 +1,24 @@
 import React from 'react';
 import "./../css/old.css"
 
-const script = document.createElement("script")
-script.async = true
-script.src = "/scripts/myscript.js"
-document.body.appendChild(script)
-
-const googleScript = document.createElement("script")
-googleScript.async = true
-googleScript.src = "/scripts/googleScript.js"
-document.head.appendChild(googleScript)
+// eslint-disable-next-line
+const myScript = () => {
+    const script = document.createElement("script")
+    script.async = true
+    script.src = "/scripts/myscript.js"
+    return document.body.appendChild(script)
+}
+// eslint-disable-next-line
+(function createGoogleScript() {
+    const googleScript = document.createElement("script")
+    googleScript.async = true
+    googleScript.src = "/scripts/googleScript.js"
+    document.head.appendChild(googleScript)
+})()
 
 const Navbar = () => {
     return ( 
-        <nav id='navbar'>
+        <nav class='navbar'>
             <a href='#quien-soy'>Quién soy</a>
             <a href='#destrezas'>Destrezas</a>
             <a href='#projects-redirect'>Proyectos</a>
@@ -24,8 +29,8 @@ const Navbar = () => {
 
 const Titulo = () => {
     return(
-    <div id='welcome-section'>
-        <h1 id="this-is-title" >SANTI BELLO</h1>
+    <div class='welcome-section'>
+        <h1 class="this-is-title" >SANTI BELLO</h1>
         <h2 className='hover-1'>Desarrollador Web.</h2>
         <h2 className='hover-2'>* JavaScript</h2>
         <h2 className='hover-2'>* PHP</h2>
@@ -36,7 +41,7 @@ const Titulo = () => {
 
 const Descripcion = () => {
     return(
-        <div id='quien-soy'>
+        <div class='quien-soy'>
             <p>Soy un estudiante <span className='hover-2'>autodidacta</span> en Galicia. Programo a diario.</p>
             <p>Hace más de un año empecé a trastear con Java después de verle las 'tripas' a un videojuego, lo que me llevaría a descubrir la programación Web.
             Me llamó la atención el <span className='hover-2'>valor</span> que podemos aportar mediante un código y un objetivo conjunto.</p>
@@ -50,15 +55,14 @@ const Descripcion = () => {
 
 const Destrezas = () => {
     return (
-        <div className="skills" id='destrezas'>
+        <div className="skills" class='destrezas'>
             <div className="skills-names">
-                <div><p>JavaScript (React)</p></div>
-                <div><p>PHP (CodeIgniter)</p></div>
-                <div><p>HTML/CSS</p></div>
-                <div><p>Bootstrap</p></div>
-                <div><p>Java</p></div>
+                <p>JavaScript (React)</p>
+                <p>PHP (CodeIgniter)</p>
+                <p>HTML/CSS</p>
+                <p>Bootstrap</p>
+                <p>Java</p>
             </div>
-
             <div className="skills-hearts">
                 <div>
                     <img src="img/heart_green.png" alt="corazón verde" />
@@ -93,9 +97,8 @@ const Destrezas = () => {
 const Proyectos = () => {
     return (
         <>
-            <div id='projects-redirect'></div>
-            <h2>Proyectos.</h2>
-            <section id='projects' className='projects-grid'>
+            <h2 class='projects-redirect'>Proyectos.</h2>
+            <section class='projects' className='projects-grid'>
                 <a className='p-1' href='https://debello.github.io/todolist/' rel="noopener noreferrer">To do List </a>
                 <a className='p-2' href='https://debello.github.io/kanban_bello/' rel="noopener noreferrer">Kanban </a>
                 <a className='p-3' href='https://github.com/debello/API-Clima' rel="noopener noreferrer">API Clima</a>
@@ -107,18 +110,14 @@ const Proyectos = () => {
 
 const Pie = () => {
     return (
-    <>
-        <div id='pie-pagina'>
-            <p id='profile-link'><strong>Connect</strong></p>
-            <div id='social-buttons'>
-                <a href="https://twitter.com/debellodev" className="" rel="noopener noreferrer"><img className="RRSS" src="img/twitter-logo.png"alt="twitter handle" /></a>
-                <a href="https://github.com/debello/" className="" rel="noopener noreferrer"><img className="RRSS" src="img/github-logo.png" alt="twitter handle" /></a>
+        <div class='pie-pagina'>
+            <h2 class='profile-link'>Connect</h2>
+            <div class='social-buttons'>
+                <a href="https://twitter.com/debellodev" rel="noopener noreferrer"><img src="img/twitter-logo.png"alt="twitter handle" /></a>
+                <a href="https://github.com/debello/" rel="noopener noreferrer"><img src="img/github-logo.png" alt="twitter handle" /></a>
             </div>
-            <div id='mini-raya'></div>
-            <p><strong>Contact</strong></p>
-            <p id='txt-mail' style={{fontSize: "30px"}}>svazquez789@hotmail.com</p>
-            <div id='raya'></div>
-
+            <h2>Contact</h2>
+            <h3>svazquez789@hotmail.com</h3>
             <div>
                 <img className="fin heart hgreen" src="img/heart_green.png" alt="corazones pequeños" />
                 <img className="fin heart hyellow" src="img/heart_yellow.png" alt="corazones pequeños" />
@@ -126,12 +125,9 @@ const Pie = () => {
                 <img className="fin heart hviolet" src="img/heart_violet.png" alt="corazones pequeños" />
                 <img className="fin heart hblue" src="img/heart_blue.png" alt="corazones pequeños" />
             </div>
+            <p className='credits'>Font and theme inspired by Undertale - Toby Fox.</p>
+            <p className='credits'>© Santi Bello - 2/2/2019</p>
         </div>
-        <div id='raya'></div>
-
-        <p id='credits'>Font and theme inspired by Undertale - Toby Fox.</p>
-        <p id='credits'>© Santi Bello - 2/2/2019</p>
-    </>
     )
 }
 
