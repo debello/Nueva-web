@@ -57,6 +57,7 @@ const TituloCSS = styled.div`
     place-self: center;
     display: grid;
     grid-template-rows: 0.5fr 0.5fr 1fr;
+    letter-spacing: 0.15rem;
     p { 
         place-self: start end;
         margin: 10px;
@@ -64,7 +65,6 @@ const TituloCSS = styled.div`
     }
     .this-is-title {
         font-size: 8rem;
-        
     }
     .subtitulo {
        display: flex;
@@ -74,8 +74,7 @@ const TituloCSS = styled.div`
     }
     .navbar {
         float: right;
-        place-self:  start end;
-        
+        place-self: start end;
     }
 `
 
