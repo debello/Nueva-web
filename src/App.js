@@ -19,9 +19,7 @@ const App = () => {
 
 const Container = styled.div`   
   font-size: 1.4rem;
-  img {
-    width: 40px;
-  }
+
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-row-gap: 400px;

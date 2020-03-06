@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
-import "./../css/old.css"
+
 
 // eslint-disable-next-line
 function myScript() {
@@ -81,7 +81,8 @@ const TituloCSS = styled.div`
 
 const Descripcion = () => {
     return(
-        <div className='quien-soy'>
+    
+        <DescripcionCSS className='quien-soy'>
             <p>Soy un estudiante <span className='hover-2'>autodidacta</span> en Galicia. Programo a diario.</p>
             <p>Hace más de un año empecé a trastear con Java después de verle las 'tripas' a un videojuego, lo que me llevaría a descubrir la programación Web.
             Me llamó la atención el <span className='hover-2'>valor</span> que podemos aportar mediante un código y un objetivo conjunto.</p>
@@ -89,13 +90,22 @@ const Descripcion = () => {
             <p>Actualmente busco un trabajo que permita seguir formándome y abrirme a nuevas posibilidades estoy empleado en JavaScript y React :)
             Me considero <span className='hover-2'>responsable</span>, organizado, trabajo en equipo y social, habiendo participado en la planificación y ejecución de más de <span className='hover-2'>140 eventos</span> de ocio a nivel regional desde 2014 en dos organizaciones diferentes.
             Contáctame vía gmail para cualquier duda, puesta a prueba o saludarme!</p>           
-        </div>
+        </DescripcionCSS>
+    
     )
 }
+const DescripcionCSS = styled.div`
+    margin-right: 40px;
+    margin-left: 40px;
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 30px;
+    }`
 
 const Destrezas = () => {
     return (
-        <div className="skills">
+        <DestrezasCSS className="skills">
             <div className="skills-names">
                 <p>JavaScript (React)</p>
                 <p>PHP (CodeIgniter)</p>
@@ -105,34 +115,48 @@ const Destrezas = () => {
             </div>
             <div className="skills-hearts">
                 <div>
-                    <img src="img/heart_green.png" alt="corazón verde" />
-                    <img src="img/heart_green.png" alt="corazón verde" />
-                    <img src="img/heart_green.png" alt="corazón verde" />
-                    <img src="img/heart_green.png" alt="corazón verde" />
+                    <img width="40px" src="img/heart_green.png" alt="corazón verde" />
+                    <img width="40px" src="img/heart_green.png" alt="corazón verde" />
+                    <img width="40px" src="img/heart_green.png" alt="corazón verde" />
+                    <img width="40px" src="img/heart_green.png" alt="corazón verde" />
                 </div>
                 <div>
-                    <img src="img/heart_yellow.png" alt="corazón amarillo" />
-                    <img src="img/heart_yellow.png" alt="corazón amarillo" />
-                    <img src="img/heart_yellow.png" alt="corazón amarillo" />
+                    <img width="40px" src="img/heart_yellow.png" alt="corazón amarillo" />
+                    <img width="40px" src="img/heart_yellow.png" alt="corazón amarillo" />
+                    <img width="40px" src="img/heart_yellow.png" alt="corazón amarillo" />
                 </div>
                 <div>
-                    <img src="img/heart_red.png" alt="corazón rojo" />
-                    <img src="img/heart_red.png" alt="corazón rojo" />
-                    <img src="img/heart_red.png" alt="corazón rojo" />
+                    <img width="40px" src="img/heart_red.png" alt="corazón rojo" />
+                    <img width="40px" src="img/heart_red.png" alt="corazón rojo" />
+                    <img width="40px" src="img/heart_red.png" alt="corazón rojo" />
                 </div>
                 <div>
-                    <img src="img/heart_violet.png" alt="corazón violeta"/>
-                    <img src="img/heart_violet.png" alt="corazón violeta"/>
-                    <img src="img/heart_violet.png" alt="corazón violeta"/>
+                    <img width="40px" src="img/heart_violet.png" alt="corazón violeta"/>
+                    <img width="40px" src="img/heart_violet.png" alt="corazón violeta"/>
+                    <img width="40px" src="img/heart_violet.png" alt="corazón violeta"/>
                 </div>
                 <div>
-                    <img src="img/heart_blue.png" alt="corazón azul" />
-                    <img src="img/heart_blue.png" alt="corazón azul" />
+                    <img width="40px" src="img/heart_blue.png" alt="corazón azul" />
+                    <img width="40px" src="img/heart_blue.png" alt="corazón azul" />
                 </div>
             </div>
-        </div>
+        </DestrezasCSS>
     )
 }
+const DestrezasCSS = styled.div`
+    display: flex;
+    justify-content: space-evenly;
+    p {
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+    img {
+        display: inline-block;
+        margin: 0 auto;
+        width: 30px;
+        margin-right: 5px;
+    }`
 
 const Proyectos = () => {
     return (
@@ -159,11 +183,11 @@ const Pie = () => {
             <h2>Contact</h2>
             <h3>svazquez789@hotmail.com</h3>
             <div>
-                <img className="fin heart hgreen" src="img/heart_green.png" alt="corazones pequeños" />
-                <img className="fin heart hyellow" src="img/heart_yellow.png" alt="corazones pequeños" />
-                <img className="fin heart hred" src="img/heart_red.png" alt="corazones pequeños" />
-                <img className="fin heart hviolet" src="img/heart_violet.png" alt="corazones pequeños" />
-                <img className="fin heart hblue" src="img/heart_blue.png" alt="corazones pequeños" />
+                <img width="40px" className="fin heart hgreen" src="img/heart_green.png" alt="corazones pequeños" />
+                <img width="40px" className="fin heart hyellow" src="img/heart_yellow.png" alt="corazones pequeños" />
+                <img width="40px" className="fin heart hred" src="img/heart_red.png" alt="corazones pequeños" />
+                <img width="40px" className="fin heart hviolet" src="img/heart_violet.png" alt="corazones pequeños" />
+                <img width="40px"className="fin heart hblue" src="img/heart_blue.png" alt="corazones pequeños" />
             </div>
             <p className='credits'>Font and theme inspired by Undertale - Toby Fox.</p>
             <p className='credits'>© Santi Bello - 2/2/2019</p>
