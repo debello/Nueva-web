@@ -4,24 +4,26 @@ import { Titulo, Descripcion, Destrezas, Proyectos, Pie } from "./parts/Portfoli
 import './css/old.css'
 
 const App = () => {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(1)
   
   const NavBlock = () => {
     switch(count) {
-      case -1:
-        return setCount(4)
-      case 0: 
-        return <Titulo />
+      case 0:
+        return setCount(5)
       case 1:
-        return <Descripcion />
+        return <Titulo />
       case 2:
-        return <Destrezas />
+        return <Descripcion />
       case 3:
-        return <Proyectos />
+        return <Destrezas />
       case 4:
+        return <Proyectos />
+      case 5:
         return <Pie />
+      case 6: 
+        return setCount(1)
       default: 
-        setCount(0)
+        console.log("Error: default returned")
     }
   }
 
