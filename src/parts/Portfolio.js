@@ -45,7 +45,7 @@ const Titulo = () => {
                 <div>
                     <h2 className='hover-1'>Desarrollador Frontend</h2>
                     <h2 className='hover-2'>* JavaScript</h2>
-                    <h2 className='hover-2'>{"{Trabajando con React.js}"}</h2>
+                    <h2 className='hover-2'>{"{React.js}"}</h2>
                 </div>
                 <Navbar />
             </div>
@@ -58,6 +58,7 @@ const TituloCSS = styled.div`
     display: grid;
     grid-template-rows: 0.5fr 0.5fr 1fr;
     letter-spacing: 0.15rem;
+
     p { 
         place-self: start end;
         margin: 10px;
@@ -80,8 +81,8 @@ const TituloCSS = styled.div`
 
 
 const Descripcion = () => {
+
     return(
-    
         <DescripcionCSS className='quien-soy'>
             <p>Soy un estudiante <span className='hover-2'>autodidacta</span> en Galicia. Programo a diario.</p>
             <p>Hace más de un año empecé a trastear con Java después de verle las 'tripas' a un videojuego, lo que me llevaría a descubrir la programación Web.
@@ -91,7 +92,6 @@ const Descripcion = () => {
             Me considero <span className='hover-2'>responsable</span>, organizado, trabajo en equipo y social, habiendo participado en la planificación y ejecución de más de <span className='hover-2'>140 eventos</span> de ocio a nivel regional desde 2014 en dos organizaciones diferentes.
             Contáctame vía gmail para cualquier duda, puesta a prueba o saludarme!</p>           
         </DescripcionCSS>
-    
     )
 }
 const DescripcionCSS = styled.div`
@@ -104,6 +104,7 @@ const DescripcionCSS = styled.div`
     }`
 
 const Destrezas = () => {
+
     return (
         <DestrezasCSS className="skills">
             <div className="skills-names">
@@ -192,8 +193,8 @@ const Pie = () => {
         <div className='pie-pagina'>
             <h2 className='profile-link'>Connect</h2>
             <div className='social-buttons'>
-                <a href="https://twitter.com/debellodev" rel="noopener noreferrer"><img src="img/twitter-logo.png"alt="twitter handle" /></a>
-                <a href="https://github.com/debello/" rel="noopener noreferrer"><img src="img/github-logo.png" alt="twitter handle" /></a>
+                <a href="https://twitter.com/debellodev" rel="noopener noreferrer"><img src="img/twitter-logo.png" width="100px" alt="twitter handle" /></a>
+                <a href="https://github.com/debello/" rel="noopener noreferrer"><img src="img/github-logo.png" width="100px" alt="twitter handle" /></a>
             </div>
             <h2>Contact</h2>
             <h3>svazquez789@hotmail.com</h3>
