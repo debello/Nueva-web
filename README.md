@@ -4,6 +4,15 @@ https://debello.github.io/Nueva-web/
 
 @ Santi Bello
 
+**TO DO**
+
+[ ] (JS)(Web) Mover entre bloques al dejar el ratón encima de los botones
+[ ] (JS)(Móvil) Mover entre bloques al pulsar los botones
+[ ] (CSS) Columnas - Tres columnas (dos laterales vacías) o margen automático
+[ ] (CSS) Filas - Coordinar margen en todos los bloques
+[ ] (TXT) Actualizar contenido
+
+
 -------------------------------------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
