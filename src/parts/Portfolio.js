@@ -160,17 +160,32 @@ const DestrezasCSS = styled.div`
 
 const Proyectos = () => {
     return (
-        <div>
+        <ProyectosCSS>
             <h2 className='projects-redirect'>Proyectos.</h2>
             <section className='projects'>
-                <a className='p-1' href='https://debello.github.io/todolist/' rel="noopener noreferrer">To do List </a>
-                <a className='p-2' href='https://debello.github.io/kanban_bello/' rel="noopener noreferrer">Kanban </a>
-                <a className='p-3' href='https://github.com/debello/API-Clima' rel="noopener noreferrer">API Clima</a>
-                <a className='p-4 hover-3' href='https://github.com/debello?tab=repositories' rel="noopener noreferrer">Más proyectos</a>
+                <p><a className='p-1' href='https://debello.github.io/todolist/' rel="noopener noreferrer">To do List </a></p>
+                <p><a className='p-2' href='https://debello.github.io/kanban_bello/' rel="noopener noreferrer">Kanban </a></p>
+                <p><a className='p-3' href='https://github.com/debello/API-Clima' rel="noopener noreferrer">API Clima</a></p>
+                <p><a className='p-4 hover-3' href='https://github.com/debello?tab=repositories' rel="noopener noreferrer">Más proyectos</a></p>
             </section>
-        </div>
+        </ProyectosCSS>
     )
 }
+const ProyectosCSS = styled.div`
+p {
+    margin: 0;
+    padding: 0;
+}
+    h2 {
+        display: flex;
+        justify-content: center;
+    
+    }
+    section p {
+        display: block;
+        margin: 0 auto;
+        
+    }`
 
 const Pie = () => {
     return (
