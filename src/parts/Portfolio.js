@@ -173,10 +173,10 @@ const Proyectos = () => {
     )
 }
 const ProyectosCSS = styled.div`
-p {
-    margin: 0;
-    padding: 0;
-}
+    p {
+        margin: 0;
+        padding: 0;
+    }
     h2 {
         display: flex;
         justify-content: center;
