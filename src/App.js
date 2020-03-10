@@ -10,6 +10,8 @@ const App = () => {
 
   const NavBlock = () => {
     switch(count) {
+      case -1:
+        return setCount(4)
       case 0: 
         return <Titulo />
       case 1:
