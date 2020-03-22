@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 
 // eslint-disable-next-line
@@ -39,7 +39,6 @@ const NavbarCSS = styled.div`
 const Titulo = () => {
     return (
         <TituloCSS className="titulo">
-            <p>Hello this is React</p>
             <h1 className="this-is-title" >SANTI BELLO</h1>
             <div className="subtitulo">
                 <div>
@@ -49,15 +48,14 @@ const Titulo = () => {
                 </div>
                 <Navbar />
             </div>
-            
         </TituloCSS>
     )
 }
 const TituloCSS = styled.div`
     place-self: center;
     display: grid;
-    grid-template-rows: 0.5fr 0.5fr 1fr;
     letter-spacing: 0.15rem;
+    padding-top: 10%;
 
     p { 
         place-self: start end;
@@ -71,7 +69,6 @@ const TituloCSS = styled.div`
        display: flex;
        flex-direction: row;
        justify-content: space-between;
-
     }
     .navbar {
         float: right;
@@ -81,7 +78,6 @@ const TituloCSS = styled.div`
 
 
 const Descripcion = () => {
-
     return(
         <DescripcionCSS className='quien-soy'>
             <p>Soy un estudiante <span className='hover-2'>autodidacta</span> en Galicia. Programo a diario.</p>
@@ -97,6 +93,7 @@ const Descripcion = () => {
 const DescripcionCSS = styled.div`
     margin-right: 40px;
     margin-left: 40px;
+    padding-top: 10%;
     img {
         display: block;
         margin: 0 auto;
@@ -104,7 +101,6 @@ const DescripcionCSS = styled.div`
     }`
 
 const Destrezas = () => {
-
     return (
         <DestrezasCSS className="skills">
             <div className="skills-names">
@@ -147,10 +143,9 @@ const Destrezas = () => {
 const DestrezasCSS = styled.div`
     display: flex;
     justify-content: space-evenly;
+    padding-top: 10%;
     p {
-        margin: 0;
         margin-bottom: 10px;
-        padding: 0;
     }
     img {
         display: inline-block;
@@ -162,7 +157,7 @@ const DestrezasCSS = styled.div`
 const Proyectos = () => {
     return (
         <ProyectosCSS>
-            <h2 className='projects-redirect'>Proyectos.</h2>
+            <h2 className='projects-redirect'>Proyectos</h2>
             <section className='projects'>
                 <p><a className='p-1' href='https://debello.github.io/todolist/' rel="noopener noreferrer">To do List </a></p>
                 <p><a className='p-2' href='https://debello.github.io/kanban_bello/' rel="noopener noreferrer">Kanban </a></p>
@@ -173,24 +168,14 @@ const Proyectos = () => {
     )
 }
 const ProyectosCSS = styled.div`
-    p {
-        margin: 0;
-        padding: 0;
-    }
-    h2 {
-        display: flex;
-        justify-content: center;
-    
-    }
+    padding-top: 10%;
     section p {
         display: block;
-        margin: 0 auto;
-        
     }`
 
 const Pie = () => {
     return (
-        <div className='pie-pagina'>
+        <PieCSS className='pie-pagina'>
             <h2 className='profile-link'>Connect</h2>
             <div className='social-buttons'>
                 <a href="https://twitter.com/debellodev" rel="noopener noreferrer"><img src="img/twitter-logo.png" width="100px" alt="twitter handle" /></a>
@@ -207,8 +192,10 @@ const Pie = () => {
             </div>
             <p className='credits'>Font and theme inspired by Undertale - Toby Fox.</p>
             <p className='credits'>© Santi Bello - 2/2/2019</p>
-        </div>
+        </PieCSS>
     )
 }
-
+const PieCSS = styled.div`
+    padding-top: 10%;
+`
 export { Navbar, Titulo, Descripcion, Destrezas, Proyectos, Pie };
