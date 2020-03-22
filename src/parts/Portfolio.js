@@ -43,7 +43,6 @@ const Titulo = () => {
             <div className="subtitulo">
                 <div>
                     <h2 className='hover-1'>Desarrollador Frontend</h2>
-                    <h2 className='hover-2'>* JavaScript</h2>
                     <h2 className='hover-2'>{"{React.js}"}</h2>
                 </div>
                 <Navbar />
@@ -80,11 +79,11 @@ const TituloCSS = styled.div`
 const Descripcion = () => {
     return(
         <DescripcionCSS className='quien-soy'>
-            <p>Soy un estudiante <span className='hover-2'>autodidacta</span> en Galicia. Programo a diario.</p>
+            <p>Soy un estudiante <span className='hover-2'>autodidacta</span> gallego.</p>
             <p>Hace más de un año empecé a trastear con Java después de verle las 'tripas' a un videojuego, lo que me llevaría a descubrir la programación Web.
-            Me llamó la atención el <span className='hover-2'>valor</span> que podemos aportar mediante un código y un objetivo conjunto.</p>
+            Me fascinó el <span className='hover-2'>valor</span> que podemos aportar mediante código y un objetivo.</p>
             <img className="heart" src="img/heart_red.png" alt="corazón rojo" />
-            <p>Actualmente busco un trabajo que permita seguir formándome y abrirme a nuevas posibilidades estoy empleado en JavaScript y React :)
+            <p>Busco un lugar donde pueda seguir formándome y abrirme a nuevos desafíos.
             Me considero <span className='hover-2'>responsable</span>, organizado, trabajo en equipo y social, habiendo participado en la planificación y ejecución de más de <span className='hover-2'>140 eventos</span> de ocio a nivel regional desde 2014 en dos organizaciones diferentes.
             Contáctame vía gmail para cualquier duda, puesta a prueba o saludarme!</p>           
         </DescripcionCSS>
