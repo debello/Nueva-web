@@ -40,9 +40,10 @@ const App = () => {
 const Container = styled.div`   
   font-size: 1.2rem;
   display: grid;
-  height: 500px;
+  height: 100vh;
   grid-template-columns: 0.25fr 1fr 0.25fr;
-  grid-column-gap: 50px;
+  grid-column-gap: 10%;
+  justify-content: center;
 
     .move_block_left {
       

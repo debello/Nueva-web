@@ -51,10 +51,8 @@ const Titulo = () => {
     )
 }
 const TituloCSS = styled.div`
-    place-self: center;
-    display: grid;
-    letter-spacing: 0.15rem;
     padding-top: 10%;
+    display: grid;
 
     p { 
         place-self: start end;
@@ -62,12 +60,14 @@ const TituloCSS = styled.div`
         float: right;
     }
     .this-is-title {
-        font-size: 8rem;
+        font-size: 118px;
+        line-height: 90px;
+        justify-self: center;
     }
     .subtitulo {
        display: flex;
        flex-direction: row;
-       justify-content: space-between;
+       justify-content: space-around;
     }
     .navbar {
         float: right;
@@ -103,6 +103,7 @@ const Destrezas = () => {
     return (
         <DestrezasCSS className="skills">
             <div className="skills-names">
+                <h2>Destrezas</h2>
                 <p>JavaScript (React)</p>
                 <p>PHP (CodeIgniter)</p>
                 <p>HTML/CSS</p>
@@ -111,6 +112,7 @@ const Destrezas = () => {
             </div>
             <div className="skills-hearts">
                 <div>
+                    <img width="40px" alt="corazón negro" />
                     <img width="40px" src="img/heart_green.png" alt="corazón verde" />
                     <img width="40px" src="img/heart_green.png" alt="corazón verde" />
                     <img width="40px" src="img/heart_green.png" alt="corazón verde" />
@@ -183,11 +185,11 @@ const Pie = () => {
             <h2>Contact</h2>
             <h3>svazquez789@hotmail.com</h3>
             <div>
-                <img width="40px" className="fin heart hgreen" src="img/heart_green.png" alt="corazones pequeños" />
-                <img width="40px" className="fin heart hyellow" src="img/heart_yellow.png" alt="corazones pequeños" />
-                <img width="40px" className="fin heart hred" src="img/heart_red.png" alt="corazones pequeños" />
-                <img width="40px" className="fin heart hviolet" src="img/heart_violet.png" alt="corazones pequeños" />
-                <img width="40px"className="fin heart hblue" src="img/heart_blue.png" alt="corazones pequeños" />
+                <img width="20px" className="fin heart hgreen" src="img/heart_green.png" alt="corazones pequeños" />
+                <img width="20px" className="fin heart hyellow" src="img/heart_yellow.png" alt="corazones pequeños" />
+                <img width="20px" className="fin heart hred" src="img/heart_red.png" alt="corazones pequeños" />
+                <img width="20px" className="fin heart hviolet" src="img/heart_violet.png" alt="corazones pequeños" />
+                <img width="20px"className="fin heart hblue" src="img/heart_blue.png" alt="corazones pequeños" />
             </div>
             <p className='credits'>Font and theme inspired by Undertale - Toby Fox.</p>
             <p className='credits'>© Santi Bello - 2/2/2019</p>
