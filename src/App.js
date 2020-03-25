@@ -1,7 +1,14 @@
 import React, { useState } from 'react';
-import styled from 'styled-components';
+import styled, { createGlobalStyle }from 'styled-components';
 import { Titulo, Descripcion, Destrezas, Proyectos, Pie } from "./parts/Portfolio";
-import './css/old.css';
+import myfont from "./fonts_src/DeterminationSansWeb.ttf";
+
+const GlobalStyles = createGlobalStyle`
+  @font-face {
+    font-family: 'DTMMono';
+    src: url(${myfont}) format('truetype');
+  }
+`
 
 const App = () => {
   const [count, setCount] = useState(1)
@@ -28,22 +35,32 @@ const App = () => {
   }
 
   return (
-    <Container className="container">
-      {console.log(count)}
+    <>
+    <GlobalStyles />
+      <Container className="container">
+        {console.log(count)}
         <div className="move_block_left" onMouseOver={() => setCount(count-1)} >Click me!</div>
         {NavBlock()}
         <div className="move_block_right" onMouseOver={() => setCount(count+1)} >Click me!</div>
-    </ Container>
+      </ Container>
+    </>
   );
 }
 
-const Container = styled.div`   
+const Container = styled.div` 
+  font-family: 'DTMMono', monospace;  
+  background-color: black;
+  color: white;  
+  margin: 0 auto;  
   font-size: 1.2rem;
   display: grid;
   height: 100vh;
   grid-template-columns: 0.25fr 1fr 0.25fr;
   grid-column-gap: 10%;
   justify-content: center;
-`   
+
+  p, h1, h2, h3, span, div {
+    margin: 0px; 
+  }`   
 
 export default App;

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import corazonRojo from '../img/heart_red.png';
 
 // eslint-disable-next-line
 // function myScript() {
@@ -72,8 +72,7 @@ const TituloCSS = styled.div`
     .navbar {
         float: right;
         place-self: start end;
-    }
-`
+    }`
 
 
 const Descripcion = () => {
@@ -82,7 +81,7 @@ const Descripcion = () => {
             <p>Soy un estudiante <span className='hover-2'>autodidacta</span> gallego.</p>
             <p>Hace más de un año empecé a trastear con Java después de verle las 'tripas' a un videojuego, lo que me llevaría a descubrir la programación Web.
             Me fascinó el <span className='hover-2'>valor</span> que podemos aportar mediante código y un objetivo.</p>
-            <img className="heart" src="img/heart_red.png" alt="corazón rojo" />
+            <img className="heart" src={corazonRojo} alt="corazón rojo" />
             <p>Busco un lugar donde pueda seguir formándome y abrirme a nuevos desafíos.
             Me considero <span className='hover-2'>responsable</span>, organizado, trabajo en equipo y social, habiendo participado en la planificación y ejecución de más de <span className='hover-2'>140 eventos</span> de ocio a nivel regional desde 2014 en dos organizaciones diferentes.
             Contáctame vía gmail para cualquier duda, puesta a prueba o saludarme!</p>           
@@ -197,6 +196,6 @@ const Pie = () => {
     )
 }
 const PieCSS = styled.div`
-    padding-top: 10%;
-`
-export { Navbar, Titulo, Descripcion, Destrezas, Proyectos, Pie };
+    padding-top: 10%;`
+
+export { Navbar, Titulo, Descripcion, Destrezas, Proyectos, Pie }
