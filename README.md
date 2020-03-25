@@ -3,15 +3,23 @@ Rehaciendo mi página web personal en React.js + Blog
 https://debello.github.io/Nueva-web/
 
 @ Santi Bello
-
+*Ultima actualización: 25/03/2020*
 **TO DO**
 
-[ ] (JS)(Web) Deslizar entre bloques al dejar el ratón encima de los botones
-[ ] (JS)(Móvil) Deslizar entre bloques 
-[] Clean code - Borrar classNames
+[] Clean code
+  [] Borrar classNames
+  [] Importar imágenes e iconos 
+  [] Importar font necesaria (Titulo?)
+  [] Ajustar el height - Style del contenido bien bonito.
+  [] Separar el código en Componentes-Ficheros
+
+[] (TXT) Actualizar contenido
+
+
+[-] (JS)(Web) Deslizar entre bloques al dejar el ratón encima de los botones {mouseover}
+[-] (JS)(Móvil) Deslizar entre bloques {mouseover}
 [x] (CSS) Columnas - Tres columnas (dos laterales vacías) o margen automático
 [x] (CSS) Filas - Coordinar margen en todos los bloques
-[ ] (TXT) Actualizar contenido
 
 
 
