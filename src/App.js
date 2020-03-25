@@ -39,9 +39,9 @@ const App = () => {
     <GlobalStyles />
       <Container className="container">
         {console.log(count)}
-        <div className="move_block_left" onMouseOver={() => setCount(count-1)} >Click me!</div>
+        <div className="move_block_left" onClick={() => setCount(count-1)} >Click me!</div>
         {NavBlock()}
-        <div className="move_block_right" onMouseOver={() => setCount(count+1)} >Click me!</div>
+        <div className="move_block_right" onClick={() => setCount(count+1)} >Click me!</div>
       </ Container>
     </>
   );
@@ -58,6 +58,10 @@ const Container = styled.div`
   grid-template-columns: 0.25fr 1fr 0.25fr;
   grid-column-gap: 10%;
   justify-content: center;
+
+  img {
+    width: 30px;
+  }
 
   p, h1, h2, h3, span, div {
     margin: 0px; 
