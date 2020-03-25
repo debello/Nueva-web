@@ -1,6 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
-import corazonRojo from '../img/heart_red.png';
+import corazonRojo from '../img/corazon-rojo.png';
+import corazonAzul from '../img/corazon-azul.png';
+import corazonVerde from '../img/corazon-verde.png';
+import corazonAmarillo from '../img/corazon-amarillo.png';
+import corazonVioleta from '../img/corazon-violeta.png';
+import corazonNegro from '../img/corazon-negro.png';
+import iconoGithub from '../img/icono-github.png';
+import iconoTwitter from '../img/icono-twitter.png';
 
 // eslint-disable-next-line
 // function myScript() {
@@ -111,30 +118,32 @@ const Destrezas = () => {
             </div>
             <div className="skills-hearts">
                 <div>
-                    <img width="40px" alt="corazón negro" />
-                    <img width="40px" src="img/heart_green.png" alt="corazón verde" />
-                    <img width="40px" src="img/heart_green.png" alt="corazón verde" />
-                    <img width="40px" src="img/heart_green.png" alt="corazón verde" />
-                    <img width="40px" src="img/heart_green.png" alt="corazón verde" />
+                    <img src={corazonNegro} alt="corazón negro" />
                 </div>
                 <div>
-                    <img width="40px" src="img/heart_yellow.png" alt="corazón amarillo" />
-                    <img width="40px" src="img/heart_yellow.png" alt="corazón amarillo" />
-                    <img width="40px" src="img/heart_yellow.png" alt="corazón amarillo" />
+                    <img src={corazonVerde} alt="corazón verde" />
+                    <img src={corazonVerde} alt="corazón verde" />
+                    <img src={corazonVerde} alt="corazón verde" />
+                    <img src={corazonVerde} alt="corazón verde" />
                 </div>
                 <div>
-                    <img width="40px" src="img/heart_red.png" alt="corazón rojo" />
-                    <img width="40px" src="img/heart_red.png" alt="corazón rojo" />
-                    <img width="40px" src="img/heart_red.png" alt="corazón rojo" />
+                    <img src={corazonAmarillo} alt="corazón amarillo" />
+                    <img src={corazonAmarillo} alt="corazón amarillo" />
+                    <img src={corazonAmarillo} alt="corazón amarillo" />
                 </div>
                 <div>
-                    <img width="40px" src="img/heart_violet.png" alt="corazón violeta"/>
-                    <img width="40px" src="img/heart_violet.png" alt="corazón violeta"/>
-                    <img width="40px" src="img/heart_violet.png" alt="corazón violeta"/>
+                    <img src={corazonRojo} alt="corazón rojo" />
+                    <img src={corazonRojo} alt="corazón rojo" />
+                    <img src={corazonRojo} alt="corazón rojo" />
                 </div>
                 <div>
-                    <img width="40px" src="img/heart_blue.png" alt="corazón azul" />
-                    <img width="40px" src="img/heart_blue.png" alt="corazón azul" />
+                    <img src={corazonVioleta} alt="corazón violeta"/>
+                    <img src={corazonVioleta} alt="corazón violeta"/>
+                    <img src={corazonVioleta} alt="corazón violeta"/>
+                </div>
+                <div>
+                    <img src={corazonAzul} alt="corazón azul" />
+                    <img src={corazonAzul} alt="corazón azul" />
                 </div>
             </div>
         </DestrezasCSS>
@@ -178,17 +187,17 @@ const Pie = () => {
         <PieCSS className='pie-pagina'>
             <h2 className='profile-link'>Connect</h2>
             <div className='social-buttons'>
-                <a href="https://twitter.com/debellodev" rel="noopener noreferrer"><img src="img/twitter-logo.png" width="100px" alt="twitter handle" /></a>
-                <a href="https://github.com/debello/" rel="noopener noreferrer"><img src="img/github-logo.png" width="100px" alt="twitter handle" /></a>
+                <a href="https://twitter.com/debellodev" rel="noopener noreferrer"><img src={iconoTwitter} alt="icono de Twitter" /></a>
+                <a href="https://github.com/debello/" rel="noopener noreferrer"><img src={iconoGithub} alt="icono de Github" /></a>
             </div>
             <h2>Contact</h2>
             <h3>svazquez789@hotmail.com</h3>
             <div>
-                <img width="20px" className="fin heart hgreen" src="img/heart_green.png" alt="corazones pequeños" />
-                <img width="20px" className="fin heart hyellow" src="img/heart_yellow.png" alt="corazones pequeños" />
-                <img width="20px" className="fin heart hred" src="img/heart_red.png" alt="corazones pequeños" />
-                <img width="20px" className="fin heart hviolet" src="img/heart_violet.png" alt="corazones pequeños" />
-                <img width="20px"className="fin heart hblue" src="img/heart_blue.png" alt="corazones pequeños" />
+                <img alt="corazon verde" src={corazonVerde} />
+                <img alt="corazon amarillo" src={corazonAmarillo} />
+                <img alt="corazon rojo" src={corazonRojo} />
+                <img alt="corazon violeta" src={corazonVioleta} />
+                <img alt="corazon azul" src={corazonAzul} />
             </div>
             <p className='credits'>Font and theme inspired by Undertale - Toby Fox.</p>
             <p className='credits'>© Santi Bello - 2/2/2019</p>
@@ -196,6 +205,9 @@ const Pie = () => {
     )
 }
 const PieCSS = styled.div`
-    padding-top: 10%;`
+    padding-top: 10%;
+    .social-buttons img {
+        width: 55px;
+    }`
 
 export { Navbar, Titulo, Descripcion, Destrezas, Proyectos, Pie }
