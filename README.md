@@ -10,6 +10,7 @@ https://debello.github.io/Nueva-web/
 - [ ] (Refactor) Apply CSS priority rules protocol
 - [ ] (Writing) Actualizar contenido
 - [ ] TBD More Refactor
+- [ ] TBD Responsive Time 
 
 - [x] Ajustar el height - Style del contenido bien bonito.
 - [x] (Por encima) Retoques de diseño en cada sección
@@ -21,8 +22,8 @@ https://debello.github.io/Nueva-web/
 - [x] Separar el código en Componentes-Ficheros
 - [x] (CSS) Columnas - Tres columnas (dos laterales vacías) o margen automático
 - [x] (CSS) Filas - Coordinar margen en todos los bloques
-- [-] (JS)(Web) Deslizar entre bloques al dejar el ratón encima de los botones {mouseover}
-- [-] (JS)(Móvil) Deslizar entre bloques {mouseover}
+- [x] ~~(JS)(Web) Deslizar entre bloques al dejar el ratón encima de los botones {mouseover}~~
+- [x] ~~(JS)(Móvil) Deslizar entre bloques {mouseover}~~
 
 
 
