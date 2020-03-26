@@ -67,8 +67,8 @@ const TituloCSS = styled.div`
         float: right;
     }
     .this-is-title {
-        font-size: 118px;
-        line-height: 90px;
+        font-family: 'EndlessBoss', monospace;  
+        font-size: 100px;
         justify-self: center;
     }
     .subtitulo {

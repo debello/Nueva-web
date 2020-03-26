@@ -1,12 +1,19 @@
 import React, { useState } from 'react';
 import styled, { createGlobalStyle }from 'styled-components';
 import { Titulo, Descripcion, Destrezas, Proyectos, Pie } from "./parts/Portfolio";
-import myfont from "./fonts_src/DeterminationSansWeb.ttf";
+import fontDetermination from "./fonts_src/DeterminationSansWeb.ttf";
+//import fontSuperMario from "./fonts_src/SuperPlumberBrothers.ttf";
+import fontBoss from "./fonts_src/EndlessBossBattle.ttf";
+//import fontMonster from "./fonts_src/MonsterFriendFore.otf";
 
 const GlobalStyles = createGlobalStyle`
   @font-face {
     font-family: 'DTMMono';
-    src: url(${myfont}) format('truetype');
+    src: url(${fontDetermination}) format('truetype');
+  }
+  @font-face {
+    font-family: 'EndlessBoss';
+    src: url(${fontBoss}) format('truetype');
   }
 `
 
@@ -52,7 +59,7 @@ const Container = styled.div`
   background-color: black;
   color: white;  
   margin: 0 auto;  
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   display: grid;
   height: 100vh;
   grid-template-columns: 0.25fr 1fr 0.25fr;
