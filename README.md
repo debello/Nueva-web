@@ -7,21 +7,21 @@ https://debello.github.io/Nueva-web/
 **TO DO**
 
 [] Clean code
-  [] Borrar classNames
-  [] Importar imágenes e iconos 
-  [] Importar font necesaria (Titulo?)
-  [] Eliminar el "CSS" en el nombre de los components
-  [] Crear más components if necesario
   [] Ajustar el height - Style del contenido bien bonito.
-  [] Separar el código en Componentes-Ficheros
 
 [] (TXT) Actualizar contenido
+[] (TBD) Retoques de diseño en cada sección
 
-
-[-] (JS)(Web) Deslizar entre bloques al dejar el ratón encima de los botones {mouseover}
-[-] (JS)(Móvil) Deslizar entre bloques {mouseover}
+[x] Borrar classNames
+[x] Importar imágenes e iconos 
+[x] Importar font necesaria (Titulo?)
+[x] Eliminar el "CSS" en el nombre de los components
+[x] Crear más components if necesario
+[x] Separar el código en Componentes-Ficheros
 [x] (CSS) Columnas - Tres columnas (dos laterales vacías) o margen automático
 [x] (CSS) Filas - Coordinar margen en todos los bloques
+[-] (JS)(Web) Deslizar entre bloques al dejar el ratón encima de los botones {mouseover}
+[-] (JS)(Móvil) Deslizar entre bloques {mouseover}
 
 
 
