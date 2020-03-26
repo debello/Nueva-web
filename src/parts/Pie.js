@@ -14,10 +14,10 @@ const Pie = () => {
             <h2>Connect</h2>
             <RRSS>
                 <a href="https://twitter.com/debellodev" rel="noopener noreferrer">
-                    <Img src={iconoTwitter} alt="icono de Twitter" />
+                    <ImgRRSS src={iconoTwitter} alt="icono de Twitter" />
                 </a>
                 <a href="https://github.com/debello/" rel="noopener noreferrer">
-                    <Img src={iconoGithub} alt="icono de Github" />
+                    <ImgRRSS src={iconoGithub} alt="icono de Github" />
                 </a>
             </RRSS>
             <h2>Contact</h2>
@@ -37,7 +37,7 @@ const Pie = () => {
 const PieCSS = styled.div`
     padding-top: 10%;`
 const RRSS = styled.div``
-const Img = styled.img`
+const ImgRRSS = styled.img`
     width: 55px;`
 const Creditos = styled.p``
 

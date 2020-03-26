@@ -19,4 +19,5 @@ const ProyectosCSS = styled.div`
     section p {
         display: block;
     }`
+    
 export { Proyectos }

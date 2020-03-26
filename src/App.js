@@ -1,11 +1,13 @@
-import React, { useState } from 'react';
-import styled, { createGlobalStyle }from 'styled-components';
-import { Titulo, Descripcion, Destrezas } from "./parts/Portfolio";
+import React, { useState } from 'react'
+import styled, { createGlobalStyle }from 'styled-components'
+import { Titulo } from "./parts/Titulo"
+import { Descripcion } from "./parts/Descripcion"
+import { Destrezas } from "./parts/Destrezas"
 import { Proyectos } from "./parts/Proyectos"
 import { Pie } from "./parts/Pie"
-import fontDetermination from "./fonts_src/DeterminationSansWeb.ttf";
+import fontDetermination from "./fonts_src/DeterminationSansWeb.ttf"
 //import fontSuperMario from "./fonts_src/SuperPlumberBrothers.ttf";
-import fontBoss from "./fonts_src/EndlessBossBattle.ttf";
+import fontBoss from "./fonts_src/EndlessBossBattle.ttf"
 //import fontMonster from "./fonts_src/MonsterFriendFore.otf";
 
 const GlobalStyles = createGlobalStyle`
@@ -16,6 +18,14 @@ const GlobalStyles = createGlobalStyle`
   @font-face {
     font-family: 'EndlessBoss';
     src: url(${fontBoss}) format('truetype');
+  }
+  
+  img {
+    width: 30px;
+  }
+
+  p, h1, h2, h3, span, div {
+    margin: 0px; 
   }
 `
 
@@ -67,13 +77,6 @@ const Container = styled.div`
   grid-template-columns: 0.25fr 1fr 0.25fr;
   grid-column-gap: 10%;
   justify-content: center;
-
-  img {
-    width: 30px;
-  }
-
-  p, h1, h2, h3, span, div {
-    margin: 0px; 
-  }`   
+`   
 
 export default App;
