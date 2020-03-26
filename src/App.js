@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled, { createGlobalStyle }from 'styled-components'
-import { Titulo } from "./parts/Titulo"
+import { Portada } from "./parts/Portada"
 import { Descripcion } from "./parts/Descripcion"
 import { Destrezas } from "./parts/Destrezas"
 import { Proyectos } from "./parts/Proyectos"
@@ -19,7 +19,7 @@ const GlobalStyles = createGlobalStyle`
     font-family: 'EndlessBoss';
     src: url(${fontBoss}) format('truetype');
   }
-  
+
   img {
     width: 30px;
   }
@@ -37,7 +37,7 @@ const App = () => {
         case 0:
           return setCount(5)
         case 1:
-          return <Titulo />
+          return <Portada />
         case 2:
           return <Descripcion />
         case 3:

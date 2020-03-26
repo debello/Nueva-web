@@ -10,8 +10,8 @@ import iconoTwitter from '../img/icono-twitter.png';
 
 const Pie = () => {
     return (
-        <PieCSS>
-            <h2>Connect</h2>
+        <Contacto>
+            <h2>Redes Sociales</h2>
             <RRSS>
                 <a href="https://twitter.com/debellodev" rel="noopener noreferrer">
                     <ImgRRSS src={iconoTwitter} alt="icono de Twitter" />
@@ -20,7 +20,7 @@ const Pie = () => {
                     <ImgRRSS src={iconoGithub} alt="icono de Github" />
                 </a>
             </RRSS>
-            <h2>Contact</h2>
+            <h2>Correo</h2>
             <h3>svazquez789@hotmail.com</h3>
             <div>
                 <img alt="corazon verde" src={corazonVerde} />
@@ -31,10 +31,10 @@ const Pie = () => {
             </div>
             <Creditos>Font and theme inspired by Undertale - Toby Fox.</Creditos>
             <Creditos>© Santi Bello - 2/2/2019</Creditos>
-        </PieCSS>
+        </Contacto>
     )
 }
-const PieCSS = styled.div`
+const Contacto = styled.div`
     padding-top: 10%;`
 const RRSS = styled.div``
 const ImgRRSS = styled.img`

@@ -37,9 +37,9 @@ const NavbarCSS = styled.div`
         flex-direction: column;
     }
 `
-const Titulo = () => {
+const Portada = () => {
     return (
-        <TituloCSS>
+        <Titulo>
             <h1>SANTI BELLO</h1>
             <div className="subtitulo">
                 <div>
@@ -48,10 +48,10 @@ const Titulo = () => {
                 </div>
                 <Navbar />
             </div>
-        </TituloCSS>
+        </Titulo>
     )
 }
-const TituloCSS = styled.div`
+const Titulo = styled.div`
     padding-top: 10%;
     display: grid;
 
@@ -72,4 +72,4 @@ const TituloCSS = styled.div`
     }`
 
 
-export { Titulo }
+export { Portada }

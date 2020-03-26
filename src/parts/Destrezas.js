@@ -9,7 +9,7 @@ import corazonNegro from '../img/corazon-negro.png';
 
 const Destrezas = () => {
     return (
-        <DestrezasCSS>
+        <Lista>
             <div>
                 <h2>Destrezas</h2>
                 <p>JavaScript (React)</p>
@@ -48,10 +48,10 @@ const Destrezas = () => {
                     <img src={corazonAzul} alt="corazón azul" />
                 </div>
             </div>
-        </DestrezasCSS>
+        </Lista>
     )
 }
-const DestrezasCSS = styled.div`
+const Lista = styled.div`
     display: flex;
     justify-content: space-evenly;
     padding-top: 10%;
