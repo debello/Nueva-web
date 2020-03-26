@@ -3,7 +3,7 @@ Rehaciendo mi página web personal en React.js + Blog
 https://debello.github.io/Nueva-web/
 
 @ Santi Bello
-*Ultima actualización: 25/03/2020*
+
 **TO DO**
 - [ ] (HTML) Redireccionar los hyperlinks de la Portada a sus respectivas secciones
 - [ ] (CSS) Cambiar "Click me!" por imagen y/o color-gradient
@@ -24,6 +24,8 @@ https://debello.github.io/Nueva-web/
 - [x] (CSS) Filas - Coordinar margen en todos los bloques
 - [x] ~~(JS)(Web) Deslizar entre bloques al dejar el ratón encima de los botones {mouseover}~~
 - [x] ~~(JS)(Móvil) Deslizar entre bloques {mouseover}~~
+
+*Ultima actualización: 25/03/2020*
 
 
 
