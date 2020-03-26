@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import styled, { createGlobalStyle }from 'styled-components';
+import React from 'react';
+import styled from 'styled-components';
 import corazonRojo from '../img/corazon-rojo.png';
 import corazonAzul from '../img/corazon-azul.png';
 import corazonVerde from '../img/corazon-verde.png';

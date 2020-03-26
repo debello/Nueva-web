@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styled, { createGlobalStyle }from 'styled-components';
-import { Titulo, Descripcion, Destrezas, Proyectos } from "./parts/Portfolio";
+import { Titulo, Descripcion, Destrezas } from "./parts/Portfolio";
+import { Proyectos } from "./parts/Proyectos"
 import { Pie } from "./parts/Pie"
 import fontDetermination from "./fonts_src/DeterminationSansWeb.ttf";
 //import fontSuperMario from "./fonts_src/SuperPlumberBrothers.ttf";

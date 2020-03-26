@@ -10,6 +10,8 @@ https://debello.github.io/Nueva-web/
   [] Borrar classNames
   [] Importar imágenes e iconos 
   [] Importar font necesaria (Titulo?)
+  [] Eliminar el "CSS" en el nombre de los components
+  [] Crear más components if necesario
   [] Ajustar el height - Style del contenido bien bonito.
   [] Separar el código en Componentes-Ficheros
 
