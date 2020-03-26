@@ -5,11 +5,11 @@ https://debello.github.io/Nueva-web/
 @ Santi Bello
 *Ultima actualización: 25/03/2020*
 **TO DO**
-[] (HTML) Redireccionar los hyperlinks de la Portada a sus respectivas secciones
-[] (CSS) Cambiar "Click me!" por imagen y/o color-gradient
-[] (Refactor) Apply CSS priority rules protocol
-[] (Writing) Actualizar contenido
-[] TBD More Refactor
+[ ] (HTML) Redireccionar los hyperlinks de la Portada a sus respectivas secciones
+[ ] (CSS) Cambiar "Click me!" por imagen y/o color-gradient
+[ ] (Refactor) Apply CSS priority rules protocol
+[ ] (Writing) Actualizar contenido
+[ ] TBD More Refactor
 
 [x] Ajustar el height - Style del contenido bien bonito.
 [x] (Por encima) Retoques de diseño en cada sección
