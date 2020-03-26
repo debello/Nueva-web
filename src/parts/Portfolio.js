@@ -6,8 +6,6 @@ import corazonVerde from '../img/corazon-verde.png';
 import corazonAmarillo from '../img/corazon-amarillo.png';
 import corazonVioleta from '../img/corazon-violeta.png';
 import corazonNegro from '../img/corazon-negro.png';
-import iconoGithub from '../img/icono-github.png';
-import iconoTwitter from '../img/icono-twitter.png';
 
 // eslint-disable-next-line
 // function myScript() {
@@ -28,7 +26,7 @@ import iconoTwitter from '../img/icono-twitter.png';
 
 const Navbar = () => {
     return ( 
-        <NavbarCSS className='navbar'>
+        <NavbarCSS>
             <a href='#quien-soy'>Quién soy</a>
             <a href='#destrezas'>Destrezas</a>
             <a href='#projects-redirect'>Proyectos</a>
@@ -38,6 +36,8 @@ const Navbar = () => {
 }
 const NavbarCSS = styled.div`
     display: block;
+    float: right;
+    place-self: start end;
     > * {
         display: flex;
         flex-direction: column;
@@ -45,12 +45,12 @@ const NavbarCSS = styled.div`
 `
 const Titulo = () => {
     return (
-        <TituloCSS className="titulo">
-            <h1 className="this-is-title" >SANTI BELLO</h1>
+        <TituloCSS>
+            <h1>SANTI BELLO</h1>
             <div className="subtitulo">
                 <div>
-                    <h2 className='hover-1'>Desarrollador Frontend</h2>
-                    <h2 className='hover-2'>{"{React.js}"}</h2>
+                    <h2>Desarrollador Frontend</h2>
+                    <h2>{"{React.js}"}</h2>
                 </div>
                 <Navbar />
             </div>
@@ -66,7 +66,7 @@ const TituloCSS = styled.div`
         margin: 10px;
         float: right;
     }
-    .this-is-title {
+    h1 {
         font-family: 'EndlessBoss', monospace;  
         font-size: 100px;
         justify-self: center;
@@ -75,22 +75,21 @@ const TituloCSS = styled.div`
        display: flex;
        flex-direction: row;
        justify-content: space-around;
-    }
-    .navbar {
-        float: right;
-        place-self: start end;
     }`
 
 
 const Descripcion = () => {
     return(
-        <DescripcionCSS className='quien-soy'>
-            <p>Soy un estudiante <span className='hover-2'>autodidacta</span> gallego.</p>
-            <p>Hace más de un año empecé a trastear con Java después de verle las 'tripas' a un videojuego, lo que me llevaría a descubrir la programación Web.
-            Me fascinó el <span className='hover-2'>valor</span> que podemos aportar mediante código y un objetivo.</p>
-            <img className="heart" src={corazonRojo} alt="corazón rojo" />
+        <DescripcionCSS>
+            <p>Soy un estudiante <span>autodidacta</span> gallego.</p>
+            <p>Hace más de un año empecé a trastear con Java después de verle las 'tripas' a un videojuego, lo que me 
+            llevaría a descubrir la programación Web.
+            Me fascinó el <span>valor</span> que podemos aportar mediante código y un objetivo.</p>
+            <img src={corazonRojo} alt="corazón rojo" />
             <p>Busco un lugar donde pueda seguir formándome y abrirme a nuevos desafíos.
-            Me considero <span className='hover-2'>responsable</span>, organizado, trabajo en equipo y social, habiendo participado en la planificación y ejecución de más de <span className='hover-2'>140 eventos</span> de ocio a nivel regional desde 2014 en dos organizaciones diferentes.
+            Me considero <span>responsable</span>, organizado, trabajo en equipo y social, habiendo participado en 
+            la planificación y ejecución de más de <span>140 eventos</span> de ocio a nivel regional desde 2014 en 
+            dos organizaciones diferentes.
             Contáctame vía gmail para cualquier duda, puesta a prueba o saludarme!</p>           
         </DescripcionCSS>
     )
@@ -99,16 +98,16 @@ const DescripcionCSS = styled.div`
     margin-right: 40px;
     margin-left: 40px;
     padding-top: 10%;
+
     img {
         display: block;
         margin: 0 auto;
-        width: 30px;
     }`
 
 const Destrezas = () => {
     return (
-        <DestrezasCSS className="skills">
-            <div className="skills-names">
+        <DestrezasCSS>
+            <div>
                 <h2>Destrezas</h2>
                 <p>JavaScript (React)</p>
                 <p>PHP (CodeIgniter)</p>
@@ -116,7 +115,7 @@ const Destrezas = () => {
                 <p>Bootstrap</p>
                 <p>Java</p>
             </div>
-            <div className="skills-hearts">
+            <div>
                 <div>
                     <img src={corazonNegro} alt="corazón negro" />
                 </div>
@@ -153,6 +152,7 @@ const DestrezasCSS = styled.div`
     display: flex;
     justify-content: space-evenly;
     padding-top: 10%;
+
     p {
         margin-bottom: 10px;
     }
@@ -166,12 +166,12 @@ const DestrezasCSS = styled.div`
 const Proyectos = () => {
     return (
         <ProyectosCSS>
-            <h2 className='projects-redirect'>Proyectos</h2>
-            <section className='projects'>
-                <p><a className='p-1' href='https://debello.github.io/todolist/' rel="noopener noreferrer">To do List </a></p>
-                <p><a className='p-2' href='https://debello.github.io/kanban_bello/' rel="noopener noreferrer">Kanban </a></p>
-                <p><a className='p-3' href='https://github.com/debello/API-Clima' rel="noopener noreferrer">API Clima</a></p>
-                <p><a className='p-4 hover-3' href='https://github.com/debello?tab=repositories' rel="noopener noreferrer">Más proyectos</a></p>
+            <h2>Proyectos</h2>
+            <section>
+                <p><a href='https://debello.github.io/todolist/' rel="noopener noreferrer">To do List </a></p>
+                <p><a href='https://debello.github.io/kanban_bello/' rel="noopener noreferrer">Kanban </a></p>
+                <p><a href='https://github.com/debello/API-Clima' rel="noopener noreferrer">API Clima</a></p>
+                <p><a href='https://github.com/debello?tab=repositories' rel="noopener noreferrer">Más proyectos</a></p>
             </section>
         </ProyectosCSS>
     )
@@ -182,32 +182,4 @@ const ProyectosCSS = styled.div`
         display: block;
     }`
 
-const Pie = () => {
-    return (
-        <PieCSS className='pie-pagina'>
-            <h2 className='profile-link'>Connect</h2>
-            <div className='social-buttons'>
-                <a href="https://twitter.com/debellodev" rel="noopener noreferrer"><img src={iconoTwitter} alt="icono de Twitter" /></a>
-                <a href="https://github.com/debello/" rel="noopener noreferrer"><img src={iconoGithub} alt="icono de Github" /></a>
-            </div>
-            <h2>Contact</h2>
-            <h3>svazquez789@hotmail.com</h3>
-            <div>
-                <img alt="corazon verde" src={corazonVerde} />
-                <img alt="corazon amarillo" src={corazonAmarillo} />
-                <img alt="corazon rojo" src={corazonRojo} />
-                <img alt="corazon violeta" src={corazonVioleta} />
-                <img alt="corazon azul" src={corazonAzul} />
-            </div>
-            <p className='credits'>Font and theme inspired by Undertale - Toby Fox.</p>
-            <p className='credits'>© Santi Bello - 2/2/2019</p>
-        </PieCSS>
-    )
-}
-const PieCSS = styled.div`
-    padding-top: 10%;
-    .social-buttons img {
-        width: 55px;
-    }`
-
-export { Navbar, Titulo, Descripcion, Destrezas, Proyectos, Pie }
+export { Navbar, Titulo, Descripcion, Destrezas, Proyectos }
