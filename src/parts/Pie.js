@@ -11,34 +11,44 @@ import iconoTwitter from '../img/icono-twitter.png';
 const Pie = () => {
     return (
         <Contacto>
-            <h2>Redes Sociales</h2>
-            <RRSS>
-                <a href="https://twitter.com/debellodev" rel="noopener noreferrer">
-                    <ImgRRSS src={iconoTwitter} alt="icono de Twitter" />
-                </a>
-                <a href="https://github.com/debello/" rel="noopener noreferrer">
-                    <ImgRRSS src={iconoGithub} alt="icono de Github" />
-                </a>
-            </RRSS>
-            <h2>Correo</h2>
-            <h3>svazquez789@hotmail.com</h3>
-            <div>
-                <img alt="corazon verde" src={corazonVerde} />
-                <img alt="corazon amarillo" src={corazonAmarillo} />
-                <img alt="corazon rojo" src={corazonRojo} />
-                <img alt="corazon violeta" src={corazonVioleta} />
-                <img alt="corazon azul" src={corazonAzul} />
-            </div>
-            <Creditos>Font and theme inspired by Undertale - Toby Fox.</Creditos>
-            <Creditos>© Santi Bello - 2/2/2019</Creditos>
+            <Informacion>
+                <h2>Redes Sociales</h2>
+                <RRSS>
+                    <a href="https://twitter.com/debellodev" rel="noopener noreferrer">
+                        <ImgRRSS src={iconoTwitter} alt="icono de Twitter" />
+                    </a>
+                    <a href="https://github.com/debello/" rel="noopener noreferrer">
+                        <ImgRRSS src={iconoGithub} alt="icono de Github" />
+                    </a>
+                </RRSS>
+                <h2>Correo</h2>
+                <p>svazquez789@hotmail.com</p>
+            </Informacion>
+            <Disclaimer>
+                <div>
+                    <img alt="corazon verde" src={corazonVerde} />
+                    <img alt="corazon amarillo" src={corazonAmarillo} />
+                    <img alt="corazon rojo" src={corazonRojo} />
+                    <img alt="corazon violeta" src={corazonVioleta} />
+                    <img alt="corazon azul" src={corazonAzul} />
+                </div>
+                <Creditos>Font and theme inspired by Undertale - Toby Fox.</Creditos>
+                <Creditos>© Santi Bello - 2/2/2019</Creditos>
+            </Disclaimer>
         </Contacto>
     )
 }
 const Contacto = styled.div`
-    padding-top: 10%;`
+    padding-top: 10%;
+    display:grid;`
 const RRSS = styled.div``
 const ImgRRSS = styled.img`
     width: 55px;`
+const Informacion = styled.div``
+const Disclaimer = styled.div`
+    font-size: 16px;
+    align-self: flex-end;
+    text-align: end;`
 const Creditos = styled.p``
 
 export { Pie }

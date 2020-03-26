@@ -24,7 +24,7 @@ const GlobalStyles = createGlobalStyle`
     width: 30px;
   }
 
-  p, h1, h2, h3, span, div {
+  p, h1, h2, h3 {
     margin: 0px; 
   }
 `

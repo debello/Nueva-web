@@ -39,19 +39,20 @@ const NavbarCSS = styled.div`
 `
 const Portada = () => {
     return (
-        <Titulo>
-            <h1>SANTI BELLO</h1>
-            <div className="subtitulo">
+        <Titular>
+            <Titulo>SANTI BELLO</Titulo>
+            <Subtitulo>
                 <div>
                     <h2>Desarrollador Frontend</h2>
                     <h2>{"{React.js}"}</h2>
                 </div>
                 <Navbar />
-            </div>
-        </Titulo>
+            </Subtitulo>
+        </Titular>
     )
 }
-const Titulo = styled.div`
+
+const Titular = styled.div`
     padding-top: 10%;
     display: grid;
 
@@ -66,10 +67,12 @@ const Titulo = styled.div`
         justify-self: center;
     }
     .subtitulo {
-       display: flex;
-       flex-direction: row;
-       justify-content: space-around;
     }`
-
+const Titulo = styled.h1``
+const Subtitulo = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;`
+    
 
 export { Portada }

@@ -10,44 +10,44 @@ import corazonNegro from '../img/corazon-negro.png';
 const Destrezas = () => {
     return (
         <Lista>
-            <div>
-                <h2>Destrezas</h2>
+            <Tecnologias>
+                <Seccion>Destrezas</Seccion>
                 <p>JavaScript (React)</p>
                 <p>PHP (CodeIgniter)</p>
                 <p>HTML/CSS</p>
                 <p>Bootstrap</p>
                 <p>Java</p>
-            </div>
-            <div>
+            </Tecnologias>
+            <NivelDeHabilidad>
                 <div>
-                    <img src={corazonNegro} alt="corazón negro" />
+                    <CorazonInvisible src={corazonNegro} alt="corazón negro" />
                 </div>
                 <div>
-                    <img src={corazonVerde} alt="corazón verde" />
-                    <img src={corazonVerde} alt="corazón verde" />
-                    <img src={corazonVerde} alt="corazón verde" />
-                    <img src={corazonVerde} alt="corazón verde" />
+                    <Nivel src={corazonVerde} alt="corazón verde" />
+                    <Nivel src={corazonVerde} alt="corazón verde" />
+                    <Nivel src={corazonVerde} alt="corazón verde" />
+                    <Nivel src={corazonVerde} alt="corazón verde" />
                 </div>
                 <div>
-                    <img src={corazonAmarillo} alt="corazón amarillo" />
-                    <img src={corazonAmarillo} alt="corazón amarillo" />
-                    <img src={corazonAmarillo} alt="corazón amarillo" />
+                    <Nivel src={corazonAmarillo} alt="corazón amarillo" />
+                    <Nivel src={corazonAmarillo} alt="corazón amarillo" />
+                    <Nivel src={corazonAmarillo} alt="corazón amarillo" />
                 </div>
                 <div>
-                    <img src={corazonRojo} alt="corazón rojo" />
-                    <img src={corazonRojo} alt="corazón rojo" />
-                    <img src={corazonRojo} alt="corazón rojo" />
+                    <Nivel src={corazonRojo} alt="corazón rojo" />
+                    <Nivel src={corazonRojo} alt="corazón rojo" />
+                    <Nivel src={corazonRojo} alt="corazón rojo" />
                 </div>
                 <div>
-                    <img src={corazonVioleta} alt="corazón violeta"/>
-                    <img src={corazonVioleta} alt="corazón violeta"/>
-                    <img src={corazonVioleta} alt="corazón violeta"/>
+                    <Nivel src={corazonVioleta} alt="corazón violeta"/>
+                    <Nivel src={corazonVioleta} alt="corazón violeta"/>
+                    <Nivel src={corazonVioleta} alt="corazón violeta"/>
                 </div>
                 <div>
-                    <img src={corazonAzul} alt="corazón azul" />
-                    <img src={corazonAzul} alt="corazón azul" />
+                    <Nivel src={corazonAzul} alt="corazón azul" />
+                    <Nivel src={corazonAzul} alt="corazón azul" />
                 </div>
-            </div>
+            </NivelDeHabilidad>
         </Lista>
     )
 }
@@ -60,10 +60,19 @@ const Lista = styled.div`
         margin-bottom: 10px;
     }
     img {
-        display: inline-block;
-        margin: 0 auto;
         width: 30px;
+        display: inline-block;
         margin-right: 5px;
     }`
-
+const Seccion = styled.h2`
+    margin-bottom: 10px;`
+const Tecnologias = styled.div`
+    h2 {
+        line-height: 32px;
+    }`
+const NivelDeHabilidad = styled.div``
+const CorazonInvisible = styled.img`
+    margin-bottom: 10px;`
+const Nivel = styled.img`
+    margin: 0 auto;`
 export { Destrezas }
