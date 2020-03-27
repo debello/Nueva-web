@@ -5,12 +5,24 @@ https://debello.github.io/Nueva-web/
 @ Santi Bello
 
 **TO DO**
-- [ ] Add google script
+- [ ] Responsive Time 
+    - [ ] 320px (1/5)
+    - [ ] 380px
+    - [ ] 480px
+    - [ ] 600px
+    - [ ] 768px
+    - [ ] 1024px
 
 - [ ] (Writing) Actualizar contenido
-- [ ] TBD Responsive Time 
-- [ ] TBD Refactor CSS priority rules protocol
+- [ ] Deploy ver 1.0
 
+- [ ] TBD Refactor 
+    - [ ] Enhance logic
+    - [ ] Comments, Unused lines
+    - [ ] CSS priority rules protocol
+
+**Done**
+- [x] Add google script
 - [x] (CSS) Cambiar "Click me!" por imagen y/o color-gradient
 - [x] ~~(HTML) Redireccionar los hyperlinks de la Portada a sus respectivas secciones~~
 - [x] Ajustar el height - Style del contenido bien bonito.

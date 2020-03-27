@@ -72,9 +72,6 @@ const Titular = styled.div`
         h1 {
             font-size: 60px;
         }
-        img {
-            width: 32px;
-        }
     }
 `
 const Titulo = styled.h1``
