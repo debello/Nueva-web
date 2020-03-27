@@ -40,15 +40,18 @@ const Pie = () => {
 }
 const Contacto = styled.div`
     padding-top: 10%;
-    display:grid;`
+    display:grid;
+    justify-items: center;`
+const Informacion = styled.div`
+    display:grid;
+    justify-items:center;`
 const RRSS = styled.div``
 const ImgRRSS = styled.img`
-    width: 55px;`
-const Informacion = styled.div``
+    width: 50px;`
 const Disclaimer = styled.div`
+    padding-top: 100px;
     font-size: 16px;
-    align-self: flex-end;
-    text-align: end;`
+    text-align: center;`
 const Creditos = styled.p``
 
 export { Pie }

@@ -5,13 +5,12 @@ https://debello.github.io/Nueva-web/
 @ Santi Bello
 
 **TO DO**
-- [ ] (HTML) Redireccionar los hyperlinks de la Portada a sus respectivas secciones
 - [ ] (CSS) Cambiar "Click me!" por imagen y/o color-gradient
-- [ ] (Refactor) Apply CSS priority rules protocol
 - [ ] (Writing) Actualizar contenido
-- [ ] TBD More Refactor
 - [ ] TBD Responsive Time 
+- [ ] TBD Refactor CSS priority rules protocol
 
+- [x] ~~(HTML) Redireccionar los hyperlinks de la Portada a sus respectivas secciones~~
 - [x] Ajustar el height - Style del contenido bien bonito.
 - [x] (Por encima) Retoques de diseño en cada sección
 - [x] Borrar classNames

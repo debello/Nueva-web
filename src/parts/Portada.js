@@ -46,7 +46,6 @@ const Portada = () => {
                     <h2>Desarrollador Frontend</h2>
                     <h2>{"{React.js}"}</h2>
                 </div>
-                <Navbar />
             </Subtitulo>
         </Titular>
     )
