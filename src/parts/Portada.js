@@ -2,21 +2,21 @@ import React from 'react';
 import styled from 'styled-components';
 
 //eslint-disable-next-line
-function myScript() {
-    const script = document.createElement("script")
-    script.async = true
-    script.src = "/scripts/myscript.js"
-    document.body.appendChild(script)
-}
-myScript()
-//eslint-disable-next-line
-function createGoogleScript() {
-    const googleScript = document.createElement("script")
-    googleScript.async = true
-    googleScript.src = "/scripts/googleScript.js"
-    document.head.appendChild(googleScript)
-}
-createGoogleScript()
+// function myScript() {
+//     const script = document.createElement("script")
+//     script.async = true
+//     script.src = "/scripts/myscript.js"
+//     document.body.appendChild(script)
+// }
+// myScript()
+// //eslint-disable-next-line
+// function createGoogleScript() {
+//     const googleScript = document.createElement("script")
+//     googleScript.async = true
+//     googleScript.src = "/scripts/googleScript.js"
+//     document.head.appendChild(googleScript)
+// }
+// createGoogleScript()
 
 const Navbar = () => {
     return ( 
