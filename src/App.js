@@ -5,6 +5,7 @@ import { Descripcion } from "./parts/Descripcion"
 import { Destrezas } from "./parts/Destrezas"
 import { Proyectos } from "./parts/Proyectos"
 import { Pie } from "./parts/Pie"
+import { Responsive } from "./parts/Responsive"
 import leftArrow from "./img/left-arrow.png"
 import rightArrow from "./img/right-arrow.png"
 import fontDetermination from "./fonts_src/DeterminationSansWeb.ttf"
@@ -32,6 +33,12 @@ const GlobalStyles = createGlobalStyle`
   }
   img {
     width: 30px;
+  }
+  @media only screen and (max-width: ${Responsive.XS}) {
+    body {
+      background-color: blue;
+
+    }
   }
 `
 
@@ -100,4 +107,5 @@ const Arrow = styled.img`
     margin: 0 auto;
     padding-top: 50vh;
 `
+
 export default App;
