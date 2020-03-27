@@ -30,6 +30,7 @@ const Texto = styled.div`
     }
     span {
         color: yellow;
-    }`
+    }
+`
 const CorazonRojo = styled.img``
 export { Descripcion }

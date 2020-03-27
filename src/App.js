@@ -5,11 +5,19 @@ import { Descripcion } from "./parts/Descripcion"
 import { Destrezas } from "./parts/Destrezas"
 import { Proyectos } from "./parts/Proyectos"
 import { Pie } from "./parts/Pie"
-import { Responsive } from "./parts/Responsive"
 import leftArrow from "./img/left-arrow.png"
 import rightArrow from "./img/right-arrow.png"
 import fontDetermination from "./fonts_src/DeterminationSansWeb.ttf"
 import fontBoss from "./fonts_src/EndlessBossBattle.ttf"
+
+const Responsive = {
+  XS: "320px",
+  S: "380px",
+  M: "480px",
+  L: "600px", 
+  XL: "768px", 
+  XXL: "1024px" 
+}
 
 const GlobalStyles = createGlobalStyle`
   @font-face {
@@ -33,12 +41,6 @@ const GlobalStyles = createGlobalStyle`
   }
   img {
     width: 30px;
-  }
-  @media only screen and (max-width: ${Responsive.XS}) {
-    body {
-      background-color: blue;
-
-    }
   }
 `
 
@@ -93,11 +95,14 @@ const showArrow = (side) => {
 }
 
 const Container = styled.div` 
-  height: 100vh;
   display: grid;
   grid-template-columns: 0.25fr 1fr 0.25fr;
   grid-column-gap: 10%;
   justify-content: center;
+  @media only screen and (max-width: 320px) {
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-column-gap: 1%;
+  }
 `   
 const LeftColumn = styled.div``
 const RightColumn = styled.div``
@@ -106,6 +111,9 @@ const Arrow = styled.img`
     display: block;
     margin: 0 auto;
     padding-top: 50vh;
+    @media only screen and (max-width: 320px) {
+      width: 30px;
+    }
 `
 
 export default App;
