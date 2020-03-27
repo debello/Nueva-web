@@ -53,7 +53,6 @@ const Destrezas = () => {
 }
 const Lista = styled.div`
     display: flex;
-    justify-content: space-evenly;
     padding-top: 10%;
 
     p {
@@ -67,6 +66,7 @@ const Lista = styled.div`
 const Seccion = styled.h2`
     margin-bottom: 10px;`
 const Tecnologias = styled.div`
+    padding-right: 10%;
     h2 {
         line-height: 32px;
     }`

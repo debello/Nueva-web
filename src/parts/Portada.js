@@ -1,22 +1,22 @@
 import React from 'react';
 import styled from 'styled-components';
 
-// eslint-disable-next-line
-// function myScript() {
-//     const script = document.createElement("script")
-//     script.async = true
-//     script.src = "/scripts/myscript.js"
-//     document.body.appendChild(script)
-// }
-// myScript()
-// eslint-disable-next-line
-// function createGoogleScript() {
-//     const googleScript = document.createElement("script")
-//     googleScript.async = true
-//     googleScript.src = "/scripts/googleScript.js"
-//     document.head.appendChild(googleScript)
-// }
-// createGoogleScript()
+//eslint-disable-next-line
+function myScript() {
+    const script = document.createElement("script")
+    script.async = true
+    script.src = "/scripts/myscript.js"
+    document.body.appendChild(script)
+}
+myScript()
+//eslint-disable-next-line
+function createGoogleScript() {
+    const googleScript = document.createElement("script")
+    googleScript.async = true
+    googleScript.src = "/scripts/googleScript.js"
+    document.head.appendChild(googleScript)
+}
+createGoogleScript()
 
 const Navbar = () => {
     return ( 
@@ -66,12 +66,14 @@ const Titular = styled.div`
         justify-self: center;
     }
     .subtitulo {
-    }`
+    }
+`
 const Titulo = styled.h1``
 const Subtitulo = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: space-around;`
+    justify-content: left;
+`
     
 
 export { Portada }

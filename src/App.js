@@ -5,11 +5,10 @@ import { Descripcion } from "./parts/Descripcion"
 import { Destrezas } from "./parts/Destrezas"
 import { Proyectos } from "./parts/Proyectos"
 import { Pie } from "./parts/Pie"
-import leftArrow from "./img/arrow-left.svg"
+import leftArrow from "./img/left-arrow.png"
+import rightArrow from "./img/right-arrow.png"
 import fontDetermination from "./fonts_src/DeterminationSansWeb.ttf"
-//import fontSuperMario from "./fonts_src/SuperPlumberBrothers.ttf";
 import fontBoss from "./fonts_src/EndlessBossBattle.ttf"
-//import fontMonster from "./fonts_src/MonsterFriendFore.otf";
 
 const GlobalStyles = createGlobalStyle`
   @font-face {
@@ -60,26 +59,45 @@ const App = () => {
       }
   }
 
+const showArrow = (side) => {
+  if(count!== 1 && side === "left") {
+    return <Arrow src={leftArrow} alt="flecha izquierda"/>
+  }
+  else if(side === "right") {
+    return <Arrow src={rightArrow} alt="flecha derecha"/>
+  }
+}
+
   return (
     <>
     <GlobalStyles />
-      <Container className="container">
+      <Container>
         {console.log(count)}
-        <div className="move_block_left" onClick={() => setCount(count-1)} >
-          <img src={leftArrow} alt="flecha izquierda"/>
-        </div>
+        <LeftColumn onClick={() => setCount(count-1)} >
+          {showArrow("left")}     
+        </LeftColumn>
         {NavBlock()}
-        <div className="move_block_right" onClick={() => setCount(count+1)} >Click me!</div>
+        <RightColumn onClick={() => setCount(count+1)} >
+          {showArrow("right")}
+        </RightColumn>
       </ Container>
     </>
   );
 }
 
 const Container = styled.div` 
+  height: 100vh;
   display: grid;
   grid-template-columns: 0.25fr 1fr 0.25fr;
   grid-column-gap: 10%;
   justify-content: center;
 `   
-
+const LeftColumn = styled.div``
+const RightColumn = styled.div``
+const Arrow = styled.img`
+    width: 40px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 50vh;
+`
 export default App;

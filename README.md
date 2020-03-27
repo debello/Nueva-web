@@ -5,11 +5,13 @@ https://debello.github.io/Nueva-web/
 @ Santi Bello
 
 **TO DO**
-- [ ] (CSS) Cambiar "Click me!" por imagen y/o color-gradient
+- [ ] Add google script
+
 - [ ] (Writing) Actualizar contenido
 - [ ] TBD Responsive Time 
 - [ ] TBD Refactor CSS priority rules protocol
 
+- [x] (CSS) Cambiar "Click me!" por imagen y/o color-gradient
 - [x] ~~(HTML) Redireccionar los hyperlinks de la Portada a sus respectivas secciones~~
 - [x] Ajustar el height - Style del contenido bien bonito.
 - [x] (Por encima) Retoques de diseño en cada sección
