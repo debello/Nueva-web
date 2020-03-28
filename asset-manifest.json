@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.js": "/Nueva-web/static/js/main.2e9adbb8.chunk.js",
-    "main.js.map": "/Nueva-web/static/js/main.2e9adbb8.chunk.js.map",
+    "main.js": "/Nueva-web/static/js/main.d080a300.chunk.js",
+    "main.js.map": "/Nueva-web/static/js/main.d080a300.chunk.js.map",
     "runtime-main.js": "/Nueva-web/static/js/runtime-main.b939ae48.js",
     "runtime-main.js.map": "/Nueva-web/static/js/runtime-main.b939ae48.js.map",
-    "static/js/2.891560c1.chunk.js": "/Nueva-web/static/js/2.891560c1.chunk.js",
-    "static/js/2.891560c1.chunk.js.map": "/Nueva-web/static/js/2.891560c1.chunk.js.map",
+    "static/js/2.fa454de9.chunk.js": "/Nueva-web/static/js/2.fa454de9.chunk.js",
+    "static/js/2.fa454de9.chunk.js.map": "/Nueva-web/static/js/2.fa454de9.chunk.js.map",
     "index.html": "/Nueva-web/index.html",
-    "precache-manifest.1d14272e1f87d77e89ddbe1a758fd698.js": "/Nueva-web/precache-manifest.1d14272e1f87d77e89ddbe1a758fd698.js",
+    "precache-manifest.8a5d74afdfda847c07465a8eb7f46713.js": "/Nueva-web/precache-manifest.8a5d74afdfda847c07465a8eb7f46713.js",
     "service-worker.js": "/Nueva-web/service-worker.js",
-    "static/js/2.891560c1.chunk.js.LICENSE.txt": "/Nueva-web/static/js/2.891560c1.chunk.js.LICENSE.txt",
+    "static/js/2.fa454de9.chunk.js.LICENSE.txt": "/Nueva-web/static/js/2.fa454de9.chunk.js.LICENSE.txt",
     "static/media/DeterminationSansWeb.ttf": "/Nueva-web/static/media/DeterminationSansWeb.b608deeb.ttf",
     "static/media/EndlessBossBattle.ttf": "/Nueva-web/static/media/EndlessBossBattle.6978d81c.ttf",
     "static/media/corazon-amarillo.png": "/Nueva-web/static/media/corazon-amarillo.0227344c.png",
     "static/media/corazon-azul.png": "/Nueva-web/static/media/corazon-azul.b9156a81.png",
-    "static/media/corazon-negro.png": "/Nueva-web/static/media/corazon-negro.48b8885c.png",
     "static/media/corazon-rojo.png": "/Nueva-web/static/media/corazon-rojo.fa459ea0.png",
     "static/media/corazon-verde.png": "/Nueva-web/static/media/corazon-verde.f0e6a9da.png",
     "static/media/corazon-violeta.png": "/Nueva-web/static/media/corazon-violeta.b52e95c1.png",
@@ -23,7 +22,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b939ae48.js",
-    "static/js/2.891560c1.chunk.js",
-    "static/js/main.2e9adbb8.chunk.js"
+    "static/js/2.fa454de9.chunk.js",
+    "static/js/main.d080a300.chunk.js"
   ]
 }

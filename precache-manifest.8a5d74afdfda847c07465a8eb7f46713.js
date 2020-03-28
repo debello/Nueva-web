@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e30e284ed6516c0b1e3b837fc5a1b245",
+    "revision": "87a09fb6720ac63dd2ad08fb1cc7941c",
     "url": "/Nueva-web/index.html"
   },
   {
-    "revision": "3dc7c0d7970ccc3b50bd",
-    "url": "/Nueva-web/static/js/2.891560c1.chunk.js"
+    "revision": "74f9468625d2db8730c4",
+    "url": "/Nueva-web/static/js/2.fa454de9.chunk.js"
   },
   {
     "revision": "9f55a1ac102148e41f3a9543b31fc30f",
-    "url": "/Nueva-web/static/js/2.891560c1.chunk.js.LICENSE.txt"
+    "url": "/Nueva-web/static/js/2.fa454de9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "df8163c3dc9b0de6e9b2",
-    "url": "/Nueva-web/static/js/main.2e9adbb8.chunk.js"
+    "revision": "b91d6176eca7a013ccc1",
+    "url": "/Nueva-web/static/js/main.d080a300.chunk.js"
   },
   {
     "revision": "364d2385db53238779a4",
@@ -34,10 +34,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b9156a8114504b2751cd397cd5d78e87",
     "url": "/Nueva-web/static/media/corazon-azul.b9156a81.png"
-  },
-  {
-    "revision": "48b8885ceb5ddff9a716795668808165",
-    "url": "/Nueva-web/static/media/corazon-negro.48b8885c.png"
   },
   {
     "revision": "fa459ea00cfded14d8094d3db2426b04",
