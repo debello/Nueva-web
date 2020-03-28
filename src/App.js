@@ -39,6 +39,9 @@ const GlobalStyles = createGlobalStyle`
   p, h1, h2, h3 {
     margin: 0px; 
   }
+  h2 {
+    font-size: 36px;
+  }
   img {
     width: 30px;
   }

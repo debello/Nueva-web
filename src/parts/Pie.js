@@ -44,7 +44,10 @@ const Contacto = styled.div`
     justify-items: center;`
 const Informacion = styled.div`
     display:grid;
-    justify-items:center;`
+    justify-items:center;
+    p {
+        font-size: 22px;
+    }`
 const RRSS = styled.div``
 const ImgRRSS = styled.img`
     width: 50px;`
