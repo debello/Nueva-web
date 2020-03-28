@@ -2,16 +2,10 @@
 Rehaciendo mi página web personal en React.js + Blog
 https://debello.github.io/Nueva-web/
 
-@ Santi Bello
+@debellodev
 
 **TO DO**
-- [ ] Responsive Time 
-    - [ ] 320px (1/5)
-    - [ ] 380px
-    - [ ] 480px
-    - [ ] 600px
-    - [ ] 768px
-    - [ ] 1024px
+- [ ] Fix Destrezas Responsive - Tecnologias vs Habilidades
 
 - [ ] (Writing) Actualizar contenido
 - [ ] Deploy ver 1.0
@@ -20,8 +14,11 @@ https://debello.github.io/Nueva-web/
     - [ ] Enhance logic
     - [ ] Comments, Unused lines
     - [ ] CSS priority rules protocol
+- [ ] TBD Review that GA script
 
 **Done**
+- [x] Responsive Time 
+    - [x] 320px 380px 480px 600px 768px 1024px
 - [x] Add google script
 - [x] (CSS) Cambiar "Click me!" por imagen y/o color-gradient
 - [x] ~~(HTML) Redireccionar los hyperlinks de la Portada a sus respectivas secciones~~

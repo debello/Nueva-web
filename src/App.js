@@ -96,20 +96,20 @@ const showArrow = (side) => {
 
 const Container = styled.div` 
   display: grid;
-  grid-template-columns: 150px 1fr 150px;
+  grid-template-columns: 80px 1fr 80px;
   grid-column-gap: 10%;
   justify-content: center;
 
   @media only screen and (max-width: 600px) {
-    grid-template-columns: 80px 1fr 80px;
+    grid-template-columns: 42px 1fr 42px;
   }
 
   @media only screen and (max-width: 480px) {
-    grid-template-columns: 55px 1fr 55px;
+    
   }
   @media only screen and (max-width: 380px) {
     font-size: 1.4rem;
-    grid-template-columns: 50px 1fr 50px;
+    grid-template-columns: 40px 1fr 40px;
     grid-column-gap: 1%;
   }
   @media only screen and (max-width: 320px) {
@@ -121,10 +121,16 @@ const Container = styled.div`
 const LeftColumn = styled.div``
 const RightColumn = styled.div``
 const Arrow = styled.img`
-    width: 40px;
+    width: 36px;
     display: block;
     margin: 0 auto;
     padding-top: 50vh;
+    @media only screen and (max-width: 480px) {
+      width: 32px;
+    }
+    @media only screen and (max-width: 380px) {
+      width: 32px;
+    }
     @media only screen and (max-width: 320px) {
       width: 30px;
     }

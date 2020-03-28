@@ -26,25 +26,20 @@ const Destrezas = () => {
                     <Nivel src={corazonVerde} alt="corazón verde" />
                     <Nivel src={corazonVerde} alt="corazón verde" />
                     <Nivel src={corazonVerde} alt="corazón verde" />
-                    <Nivel src={corazonVerde} alt="corazón verde" />
                 </div>
                 <div>
-                    <Nivel src={corazonAmarillo} alt="corazón amarillo" />
                     <Nivel src={corazonAmarillo} alt="corazón amarillo" />
                     <Nivel src={corazonAmarillo} alt="corazón amarillo" />
                 </div>
                 <div>
                     <Nivel src={corazonRojo} alt="corazón rojo" />
                     <Nivel src={corazonRojo} alt="corazón rojo" />
-                    <Nivel src={corazonRojo} alt="corazón rojo" />
                 </div>
                 <div>
                     <Nivel src={corazonVioleta} alt="corazón violeta"/>
                     <Nivel src={corazonVioleta} alt="corazón violeta"/>
-                    <Nivel src={corazonVioleta} alt="corazón violeta"/>
                 </div>
                 <div>
-                    <Nivel src={corazonAzul} alt="corazón azul" />
                     <Nivel src={corazonAzul} alt="corazón azul" />
                 </div>
             </NivelDeHabilidad>
@@ -56,7 +51,7 @@ const Lista = styled.div`
     padding-top: 10%;
 
     p {
-        margin-bottom: 10px;
+
     }
 
     @media only screen and (max-width: 320px) {
@@ -64,22 +59,26 @@ const Lista = styled.div`
             font-size: 30px;
         }
     }`
-const Seccion = styled.h2`
-    margin-bottom: 10px;`
+const Seccion = styled.h2``
 const Tecnologias = styled.div`
     display: grid;
     align-content: stretch;
-    padding-right: 10%;
     h2 {
-        line-height: 32px;
+        
     }
     @media only screen and (max-width: 480px) {
-        padding-right: 0px;
+        h2 {
+            font-size: 32px;
+        }
+    }
+    @media only screen and (max-width: 400px) {
+        h2 {
+            font-size: 30px;
+        }
     }
     @media only screen and (max-width: 320px) {
-        padding-right: 0px;
         h2 {
-            line-height: 38px
+
         }
     }`
 const NivelDeHabilidad = styled.div`
@@ -87,34 +86,23 @@ const NivelDeHabilidad = styled.div`
     align-content: stretch;`
 const CorazonInvisible = styled.img`
     width: 30px;
-    display: inline-block;
-    margin-bottom: 14px;
+    padding-bottom: 26px;
 
     @media only screen and (max-width: 480px) {
         width: 22px;
-        margin-bottom: 20px;
     }
     @media only screen and (max-width: 320px) {
         width: 22px;
-        margin-bottom: 31px;
     }`
 const Nivel = styled.img`
-    margin: 0 auto;
     width: 30px;
-    margin-right: 5px;
-    margin-bottom: 14px;
-
+    padding-right: 5px;
     @media only screen and (max-width: 600px) {
         width: 25px;
     }
     @media only screen and (max-width: 480px) {
-        width: 25px;
-        margin-right: 3px;
-        margin-bottom: 5px;
      }
     @media only screen and (max-width: 320px) {
        width: 22px;
-       margin-right: 4px;
-       margin-bottom: 20px;
     }`
 export { Destrezas }
