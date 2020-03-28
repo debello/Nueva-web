@@ -10,14 +10,14 @@ import rightArrow from "./img/right-arrow.png"
 import fontDetermination from "./fonts_src/DeterminationSansWeb.ttf"
 import fontBoss from "./fonts_src/EndlessBossBattle.ttf"
 
-const Responsive = {
-  XS: "320px",
-  S: "380px",
-  M: "480px",
-  L: "600px", 
-  XL: "768px", 
-  XXL: "1024px" 
-}
+// const Responsive = {
+//   XS: "320px",
+//   S: "380px",
+//   M: "480px",
+//   L: "600px", 
+//   XL: "768px", 
+//   XXL: "1024px" 
+// }
 
 const GlobalStyles = createGlobalStyle`
   @font-face {

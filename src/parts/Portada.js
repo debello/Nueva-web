@@ -18,25 +18,6 @@ import styled from 'styled-components';
 // }
 // createGoogleScript()
 
-const Navbar = () => {
-    return ( 
-        <NavbarCSS>
-            <a href='#quien-soy'>Quién soy</a>
-            <a href='#destrezas'>Destrezas</a>
-            <a href='#projects-redirect'>Proyectos</a>
-            <a href='#profile-link'>Contacto</a>
-         </NavbarCSS>
-    )
-}
-const NavbarCSS = styled.div`
-    display: block;
-    float: right;
-    place-self: start end;
-    > * {
-        display: flex;
-        flex-direction: column;
-    }
-`
 const Portada = () => {
     return (
         <Titular>
@@ -50,7 +31,6 @@ const Portada = () => {
         </Titular>
     )
 }
-
 const Titular = styled.div`
     padding-top: 10%;
     display: grid;
