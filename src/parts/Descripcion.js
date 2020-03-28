@@ -7,8 +7,8 @@ const Descripcion = () => {
         <Texto>
             <p>Soy un estudiante <span>autodidacta</span> gallego.</p>
             <p>Dos años atrás empecé a trastear Java después de verle las 'tripas' a un videojuego, lo que me 
-            llevaría a descubrir el desarrollo Web.
-            Me encantó poder <span>marcar la diferencia</span> mediante código y un objetivo.</p>
+            llevaría a descubrir el desarrollo Web.</p>
+            <p>Me encantó poder <span>marcar la diferencia</span> mediante código y un objetivo.</p>
             <CorazonRojo src={corazonRojo} alt="corazón rojo" />
             <p>Busco un lugar interesante donde pueda seguir formándome y abrirme a nuevos desafíos.</p>
             <br/>
