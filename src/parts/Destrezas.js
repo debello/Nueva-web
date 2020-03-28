@@ -71,7 +71,9 @@ const Tecnologias = styled.div`
     h2 {
         line-height: 32px;
     }
-
+    @media only screen and (max-width: 480px) {
+        padding-right: 0px;
+    }
     @media only screen and (max-width: 320px) {
         padding-right: 0px;
         h2 {
@@ -84,6 +86,10 @@ const CorazonInvisible = styled.img`
     display: inline-block;
     margin-bottom: 14px;
 
+    @media only screen and (max-width: 480px) {
+        width: 22px;
+        margin-bottom: 20px;
+    }
     @media only screen and (max-width: 320px) {
         width: 22px;
         margin-bottom: 31px;
@@ -92,8 +98,13 @@ const Nivel = styled.img`
     margin: 0 auto;
     width: 30px;
     margin-right: 5px;
-    margin-bottom: 14px
+    margin-bottom: 14px;
 
+    @media only screen and (max-width: 480px) {
+        width: 26px;
+        margin-right: 3px;
+        margin-bottom: 5px;
+     }
     @media only screen and (max-width: 320px) {
        width: 22px;
        margin-right: 4px;

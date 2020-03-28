@@ -67,6 +67,14 @@ const Titular = styled.div`
     }
     .subtitulo {
     }
+
+    @media only screen and (max-width: 480px) {
+        padding-top: 15%;
+        h1 {
+            font-size: 70px;
+        }
+    }
+    
     @media only screen and (max-width: 320px) {
         padding-top: 20%;
         h1 {

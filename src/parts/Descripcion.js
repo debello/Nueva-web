@@ -31,7 +31,11 @@ const Texto = styled.div`
     span {
         color: yellow;
     }
-
+    
+    @media only screen and (max-width: 480px) {
+        margin-left: 0px;
+        margin-right:0px;
+    }
     @media only screen and (max-width: 320px) {
         margin-left: 0px;
         margin-right:0px;

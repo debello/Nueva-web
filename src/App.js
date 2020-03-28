@@ -99,6 +99,10 @@ const Container = styled.div`
   grid-template-columns: 150px 1fr 150px;
   grid-column-gap: 10%;
   justify-content: center;
+
+  @media only screen and (max-width: 480px) {
+    grid-template-columns: 55px 1fr 55px;
+  }
   @media only screen and (max-width: 320px) {
     font-size: 1.3rem;
     grid-template-columns: 40px 1fr 40px;
