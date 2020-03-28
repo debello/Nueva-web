@@ -5,6 +5,7 @@ https://debello.github.io/Nueva-web/
 @debellodev
 
 **TO DO**
+- [ ] Mejorar Destrezas - Tecnologias vs Habilidades deben concordar horizontalmente
 - [ ] TBD Movile-slide?
 - [ ] TBD Refactor 
     - [ ] Enhance logic

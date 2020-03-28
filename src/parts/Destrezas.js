@@ -5,7 +5,6 @@ import corazonAzul from '../img/corazon-azul.png';
 import corazonVerde from '../img/corazon-verde.png';
 import corazonAmarillo from '../img/corazon-amarillo.png';
 import corazonVioleta from '../img/corazon-violeta.png';
-import corazonNegro from '../img/corazon-negro.png';
 
 const Destrezas = () => {
     return (
@@ -57,7 +56,7 @@ const Lista = styled.div`
         }
     }`
 const Seccion = styled.h2`
-line-height: 28px;`
+    line-height: 28px;`
 const Tecnologias = styled.div`
     display: grid;
     align-content: stretch;
@@ -89,16 +88,6 @@ const NivelDeHabilidad = styled.div`
         h2 {
             font-size: 30px;
         }
-    }`
-const CorazonInvisible = styled.img`
-    width: 30px;
-    padding-bottom: 26px;
-
-    @media only screen and (max-width: 480px) {
-        width: 22px;
-    }
-    @media only screen and (max-width: 320px) {
-        width: 22px;
     }`
 const Nivel = styled.img`
     width: 30px;
