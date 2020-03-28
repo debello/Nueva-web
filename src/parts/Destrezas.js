@@ -49,10 +49,7 @@ const Destrezas = () => {
 const Lista = styled.div`
     display: flex;
     padding-top: 10%;
-
-    p {
-
-    }
+    justify-content: center;
 
     @media only screen and (max-width: 320px) {
         p {
@@ -77,9 +74,6 @@ const Tecnologias = styled.div`
         }
     }
     @media only screen and (max-width: 320px) {
-        h2 {
-
-        }
     }`
 const NivelDeHabilidad = styled.div`
     display: grid;

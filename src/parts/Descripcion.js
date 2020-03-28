@@ -21,6 +21,7 @@ const Descripcion = () => {
 }
 const Texto = styled.div`
     padding-top: 10%;
+    padding-bottom: 10%;
 
     img {
         display: block;
