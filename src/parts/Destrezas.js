@@ -12,9 +12,9 @@ const Destrezas = () => {
         <Lista>
             <Tecnologias>
                 <Seccion>Destrezas</Seccion>
-                <p>JavaScript (React)</p>
-                <p>PHP (CodeIgniter)</p>
-                <p>HTML/CSS</p>
+                <p>JS React</p>
+                <p>CSS</p>
+                <p>PHP</p>
                 <p>Bootstrap</p>
                 <p>Java</p>
             </Tecnologias>
@@ -58,10 +58,11 @@ const Lista = styled.div`
     p {
         margin-bottom: 10px;
     }
-    img {
-        width: 30px;
-        display: inline-block;
-        margin-right: 5px;
+
+    @media only screen and (max-width: 320px) {
+        p {
+            font-size: 30px;
+        }
     }`
 const Seccion = styled.h2`
     margin-bottom: 10px;`
@@ -69,10 +70,33 @@ const Tecnologias = styled.div`
     padding-right: 10%;
     h2 {
         line-height: 32px;
+    }
+
+    @media only screen and (max-width: 320px) {
+        padding-right: 0px;
+        h2 {
+            line-height: 38px
+        }
     }`
 const NivelDeHabilidad = styled.div``
 const CorazonInvisible = styled.img`
-    margin-bottom: 10px;`
+    width: 30px;
+    display: inline-block;
+    margin-bottom: 14px;
+
+    @media only screen and (max-width: 320px) {
+        width: 22px;
+        margin-bottom: 31px;
+    }`
 const Nivel = styled.img`
-    margin: 0 auto;`
+    margin: 0 auto;
+    width: 30px;
+    margin-right: 5px;
+    margin-bottom: 14px
+
+    @media only screen and (max-width: 320px) {
+       width: 22px;
+       margin-right: 4px;
+       margin-bottom: 20px;
+    }`
 export { Destrezas }

@@ -96,11 +96,12 @@ const showArrow = (side) => {
 
 const Container = styled.div` 
   display: grid;
-  grid-template-columns: 0.25fr 1fr 0.25fr;
+  grid-template-columns: 150px 1fr 150px;
   grid-column-gap: 10%;
   justify-content: center;
   @media only screen and (max-width: 320px) {
-    grid-template-columns: 0.5fr 1fr 0.5fr;
+    font-size: 1.3rem;
+    grid-template-columns: 40px 1fr 40px;
     grid-column-gap: 1%;
   }
 `   
