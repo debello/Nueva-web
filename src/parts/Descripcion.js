@@ -20,8 +20,6 @@ const Descripcion = () => {
     )
 }
 const Texto = styled.div`
-    margin-right: 40px;
-    margin-left: 40px;
     padding-top: 10%;
 
     img {
@@ -30,15 +28,6 @@ const Texto = styled.div`
     }
     span {
         color: yellow;
-    }
-    
-    @media only screen and (max-width: 480px) {
-        margin-left: 0px;
-        margin-right:0px;
-    }
-    @media only screen and (max-width: 320px) {
-        margin-left: 0px;
-        margin-right:0px;
     }
 `
 const CorazonRojo = styled.img``

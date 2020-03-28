@@ -67,6 +67,8 @@ const Lista = styled.div`
 const Seccion = styled.h2`
     margin-bottom: 10px;`
 const Tecnologias = styled.div`
+    display: grid;
+    align-content: stretch;
     padding-right: 10%;
     h2 {
         line-height: 32px;
@@ -80,7 +82,9 @@ const Tecnologias = styled.div`
             line-height: 38px
         }
     }`
-const NivelDeHabilidad = styled.div``
+const NivelDeHabilidad = styled.div`
+    display: grid;
+    align-content: stretch;`
 const CorazonInvisible = styled.img`
     width: 30px;
     display: inline-block;
@@ -100,8 +104,11 @@ const Nivel = styled.img`
     margin-right: 5px;
     margin-bottom: 14px;
 
+    @media only screen and (max-width: 600px) {
+        width: 25px;
+    }
     @media only screen and (max-width: 480px) {
-        width: 26px;
+        width: 25px;
         margin-right: 3px;
         margin-bottom: 5px;
      }
