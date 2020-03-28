@@ -11,7 +11,7 @@ const Destrezas = () => {
     return (
         <Lista>
             <Tecnologias>
-                <Seccion>Destrezas</Seccion>
+                <Seccion>Destreza</Seccion>
                 <p>JS React</p>
                 <p>CSS</p>
                 <p>PHP</p>
@@ -19,9 +19,9 @@ const Destrezas = () => {
                 <p>Java</p>
             </Tecnologias>
             <NivelDeHabilidad>
-                <div>
-                    <CorazonInvisible src={corazonNegro} alt="corazón negro" />
-                </div>
+                
+                    <h2>Des</h2>
+                
                 <div>
                     <Nivel src={corazonVerde} alt="corazón verde" />
                     <Nivel src={corazonVerde} alt="corazón verde" />
@@ -56,7 +56,8 @@ const Lista = styled.div`
             font-size: 30px;
         }
     }`
-const Seccion = styled.h2``
+const Seccion = styled.h2`
+line-height: 28px;`
 const Tecnologias = styled.div`
     display: grid;
     align-content: stretch;
@@ -77,7 +78,18 @@ const Tecnologias = styled.div`
     }`
 const NivelDeHabilidad = styled.div`
     display: grid;
-    align-content: stretch;`
+    align-content: stretch;
+    color: black;
+    @media only screen and (max-width: 480px) {
+        h2 {
+            font-size: 32px;
+        }
+    }
+    @media only screen and (max-width: 400px) {
+        h2 {
+            font-size: 30px;
+        }
+    }`
 const CorazonInvisible = styled.img`
     width: 30px;
     padding-bottom: 26px;

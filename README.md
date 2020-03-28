@@ -5,19 +5,24 @@ https://debello.github.io/Nueva-web/
 @debellodev
 
 **TO DO**
-- [x] Fix Destrezas Responsive - Tecnologias vs Habilidades
-
-- [x] (Writing) Actualizar contenido
-- [ ] Deploy ver 1.0
-
+- [ ] TBD Movile-slide?
 - [ ] TBD Refactor 
     - [ ] Enhance logic
     - [ ] Comments, Unused lines
     - [ ] CSS priority rules protocol
 - [ ] TBD Review that GA script
-- [ ] Documentación. Datos del responsive etc.
+- [ ] TBD Documentación. Datos del responsive etc.
+
 
 **Done**
+- [x] Fix - Arrows too wide? Are them necessary? Can I slide without them?
+- [x] Fix - Pie's Arrows
+- [x] Fix - Destrezas. Nivel bottom vs Tecnologias horizontally
+
+28/03
+- [x] Fix Destrezas Responsive - Tecnologias vs Habilidades
+- [x] (Writing) Actualizar contenido
+- [x] Deploy ver 1.0
 - [x] Responsive Time 
     - [x] 320px 380px 480px 600px 768px 1024px
 - [x] Add google script
