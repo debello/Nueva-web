@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "87a09fb6720ac63dd2ad08fb1cc7941c",
+    "revision": "3aa6188402ee1c0ed376f75530605fcf",
     "url": "/Nueva-web/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Nueva-web/static/js/2.fa454de9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b91d6176eca7a013ccc1",
-    "url": "/Nueva-web/static/js/main.d080a300.chunk.js"
+    "revision": "4977f5783e73743c873a",
+    "url": "/Nueva-web/static/js/main.a2605f20.chunk.js"
   },
   {
     "revision": "364d2385db53238779a4",
