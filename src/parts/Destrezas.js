@@ -19,7 +19,7 @@ const Destrezas = () => {
             </Tecnologias>
             <NivelDeHabilidad>
                 
-                    <h2>Des</h2>
+                    <div>Empty</div>
                 
                 <div>
                     <Nivel src={corazonVerde} alt="corazón verde" />
@@ -60,44 +60,28 @@ const Seccion = styled.h2`
 const Tecnologias = styled.div`
     display: grid;
     align-content: stretch;
-    h2 {
-        
+    h2, p {
+        height: 35px;
+        line-height: 16px;
     }
-    @media only screen and (max-width: 480px) {
-        h2 {
-            font-size: 32px;
-        }
-    }
-    @media only screen and (max-width: 400px) {
-        h2 {
-            font-size: 30px;
-        }
-    }
-    @media only screen and (max-width: 320px) {
-    }`
+`
 const NivelDeHabilidad = styled.div`
     display: grid;
     align-content: stretch;
     color: black;
-    @media only screen and (max-width: 480px) {
-        h2 {
-            font-size: 32px;
-        }
+     > div {
+        height: 35px;
+        align-content:center;   
     }
-    @media only screen and (max-width: 400px) {
-        h2 {
-            font-size: 30px;
-        }
-    }`
+`
 const Nivel = styled.img`
     width: 30px;
     padding-right: 5px;
     @media only screen and (max-width: 600px) {
         width: 25px;
     }
-    @media only screen and (max-width: 480px) {
-     }
     @media only screen and (max-width: 320px) {
-       width: 22px;
-    }`
+        width: 22px;
+    }
+`
 export { Destrezas }
