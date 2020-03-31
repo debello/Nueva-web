@@ -29,6 +29,7 @@ const Lista = styled.div`
     }
     span {
         color: yellow;
-    }`
+    }
+`
 
 export { Proyectos }

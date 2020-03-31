@@ -34,7 +34,6 @@ const Portada = () => {
 const Titular = styled.div`
     padding-top: 10%;
     display: grid;
-
     p { 
         place-self: start end;
         margin: 10px;
@@ -54,7 +53,6 @@ const Titular = styled.div`
             font-size: 70px;
         }
     }
-    
     @media only screen and (max-width: 320px) {
         padding-top: 20%;
         h1 {

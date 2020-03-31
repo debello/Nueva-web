@@ -106,10 +106,6 @@ const Container = styled.div`
   @media only screen and (max-width: 600px) {
     grid-template-columns: 42px 1fr 42px;
   }
-
-  @media only screen and (max-width: 480px) {
-    
-  }
   @media only screen and (max-width: 380px) {
     font-size: 1.4rem;
     grid-template-columns: 40px 1fr 40px;
@@ -129,9 +125,6 @@ const Arrow = styled.img`
     margin: 0 auto;
     padding-top: 50vh;
     @media only screen and (max-width: 480px) {
-      width: 32px;
-    }
-    @media only screen and (max-width: 380px) {
       width: 32px;
     }
     @media only screen and (max-width: 320px) {

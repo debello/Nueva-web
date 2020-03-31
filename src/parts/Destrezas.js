@@ -54,7 +54,8 @@ const Lista = styled.div`
         p {
             font-size: 30px;
         }
-    }`
+    }
+`
 const Seccion = styled.h2`
     line-height: 28px;`
 const Tecnologias = styled.div`
@@ -71,12 +72,13 @@ const NivelDeHabilidad = styled.div`
     color: black;
      > div {
         height: 35px;
-        align-content:center;   
+        align-content: center;   
     }
 `
 const Nivel = styled.img`
     width: 30px;
     padding-right: 5px;
+
     @media only screen and (max-width: 600px) {
         width: 25px;
     }

@@ -41,20 +41,23 @@ const Pie = () => {
 const Contacto = styled.div`
     padding-top: 10%;
     display:grid;
-    justify-items: center;`
+    justify-items: center;
+`
 const Informacion = styled.div`
     display:grid;
     justify-items:center;
     p {
         font-size: 22px;
-    }`
+    }
+`
 const RRSS = styled.div``
 const ImgRRSS = styled.img`
     width: 50px;`
 const Disclaimer = styled.div`
     padding-top: 100px;
     font-size: 16px;
-    text-align: center;`
+    text-align: center;
+`
 const Creditos = styled.p``
 
 export { Pie }
