@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/Nueva-web/static/js/main.a2605f20.chunk.js",
-    "main.js.map": "/Nueva-web/static/js/main.a2605f20.chunk.js.map",
+    "main.js": "/Nueva-web/static/js/main.d96707f7.chunk.js",
+    "main.js.map": "/Nueva-web/static/js/main.d96707f7.chunk.js.map",
     "runtime-main.js": "/Nueva-web/static/js/runtime-main.b939ae48.js",
     "runtime-main.js.map": "/Nueva-web/static/js/runtime-main.b939ae48.js.map",
     "static/js/2.fa454de9.chunk.js": "/Nueva-web/static/js/2.fa454de9.chunk.js",
     "static/js/2.fa454de9.chunk.js.map": "/Nueva-web/static/js/2.fa454de9.chunk.js.map",
     "index.html": "/Nueva-web/index.html",
-    "precache-manifest.9378147904abeeec950f9e2e4b824c0e.js": "/Nueva-web/precache-manifest.9378147904abeeec950f9e2e4b824c0e.js",
+    "precache-manifest.834f7e2fafd2eae220746bd5af3b229d.js": "/Nueva-web/precache-manifest.834f7e2fafd2eae220746bd5af3b229d.js",
     "service-worker.js": "/Nueva-web/service-worker.js",
     "static/js/2.fa454de9.chunk.js.LICENSE.txt": "/Nueva-web/static/js/2.fa454de9.chunk.js.LICENSE.txt",
     "static/media/DeterminationSansWeb.ttf": "/Nueva-web/static/media/DeterminationSansWeb.b608deeb.ttf",
@@ -23,6 +23,6 @@
   "entrypoints": [
     "static/js/runtime-main.b939ae48.js",
     "static/js/2.fa454de9.chunk.js",
-    "static/js/main.a2605f20.chunk.js"
+    "static/js/main.d96707f7.chunk.js"
   ]
 }
