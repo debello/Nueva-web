@@ -5,11 +5,11 @@ https://debello.github.io/Nueva-web/
 @debellodev
 
 **TO DO**
-- [ ] Mejorar Destrezas - Tecnologias vs Habilidades deben concordar horizontalmente
+- [x] Mejorar Destrezas - Tecnologias vs Habilidades deben concordar horizontalmente
 - [ ] TBD Movile-slide?
 - [ ] TBD Refactor 
     - [ ] Enhance logic
-    - [ ] Comments, Unused lines
+    - [x] Comments, Unused lines
     - [ ] CSS priority rules protocol
 - [ ] TBD Review that GA script
 - [ ] TBD Documentación. Datos del responsive etc.

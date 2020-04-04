@@ -35,6 +35,7 @@ const GlobalStyles = createGlobalStyle`
     color: white;  
     margin: 0 auto;  
     font-size: 1.6rem;
+    letter-spacing: 1px;
   }
   p, h1, h2, h3 {
     margin: 0px; 
