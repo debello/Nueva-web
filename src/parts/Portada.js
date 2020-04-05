@@ -34,6 +34,11 @@ const Portada = () => {
 const Titular = styled.div`
     padding-top: 10%;
     display: grid;
+    letter-spacing: 2px;
+
+    @-moz-document url-prefix() {
+        letter-spacing: 1px;
+    }
     p { 
         place-self: start end;
         margin: 10px;
